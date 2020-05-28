@@ -55,7 +55,7 @@
                         style="background-image: url(<?php echo get_template_directory_uri().'/app-resources/images/tunnel.png'; ?>);">
                     </div>
                     <h3 class="pricing-card__title mb-4">Tunnel</h3>
-                    <p class="box-text">Lazarus tunnel provide seamless data and information route. solution to the users. IPFS makes distribution of high volumes of data with high efficiency. The users would be able to host their data on the network of computers reducing the cost of storage. Our stream technology provide Our stream technology provide control of privacy over distributed network. We are about to launch Lazarus Drive beta version for public testing. Subscribe us, to stay tuned.</p>
+                    <p class="box-text">Lazarus Tunnel helps to host your local networks to a temporary public network, making it more efficient method to use as webhook in local development. With the help of Lazarus network’s tunnel solution, user can send data’s between device using secure and encrypted network. Lazarus tunnel helps user to communicate with other user as well as open ports on their local device to the public internet temporarily.</p>
                     <div class="text-center mt-4">
                         <a href="https://app.lazarus.network" class="btn btn--blue btn--lg" >Coming Soon</a>
                     </div>
@@ -70,12 +70,11 @@
                     <div class="image-block"
                         style="background-image: url(<?php echo get_template_directory_uri().'/app-resources/images/stream.png'; ?>);">
                     </div>
-                    <h3 class="pricing-card__title mb-4">Live Steaming</h3>
+                    <h3 class="pricing-card__title mb-4">Live Streaming</h3>
                     <p class="box-text">Lazarus Streaming Service offers Secure and Decentralized Live Video Streaming
                         using IPFS. The stream will be more secure as it uses end to end encryption. The decentralized
                         network allows our users to stream content without any restrictions and also reduce the cost of
-                        live Streaming. We will launch Decentralized Live Video Streaming before july. We are currently
-                        testing it internally and making it safe and reliable for our users. Subscribe us, to stay
+                        live Streaming. We are currently testing it internally and making it safe and reliable for our users. Subscribe us, to stay
                         tuned.</p>
                     <div class="text-center mt-4">
                         <a  href="https://app.lazarus.network" class="btn btn--blue btn--lg" >Coming Soon</a>

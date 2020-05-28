@@ -53,13 +53,6 @@
             array_push($form_error, $error);
         }
 
-        // Get user phonenumber
-        $phone_number  = $_POST['phone-num'];
-        if(!empty($phone_number)){
-            // Sanitize Phone Number
-            $phone_number = filter_var($phone_number, FILTER_SANITIZE_STRING);
-        }
-
         // Registration - All Value Set with no errors
         if(!count($form_error)){
 
@@ -74,7 +67,6 @@
             $message = '<ul>
                 <li>Name: '.$person_name.'</li>
                 <li>Email: '.$user_email.'</li>
-                <li>Phone: '.$phone_number.'</li>
             </ul>';
 
             echo $user_email;
@@ -116,10 +108,7 @@
                     <div class="form-group">
                         <input type="email" class="form-control footer-form__input" id="email" name="email" aria-describedby="email" required placeholder="Email Address">
                     </div>
-                    <div class="form-group">
-                        <input type="number" class="form-control footer-form__input" id="number" name="phone-num" aria-describedby="number" placeholder="Phone Number">
-                    </div>
-                    <div class="form-group justify-content-center d-flex mt-4">
+                    <div class="form-group justify-content-center mt-4">
                     <?php
                     /**
                      * API Key
@@ -130,7 +119,16 @@
                     echo we_recaptcha_submit_button($api_key, $form_token, $form_action, 'Subscribe', 'button form-button btn btn--blue btn--lg w-100'); 
                     ?>
                     </div>
-                    <small class="d-block text-center">We don't use our users email for marketing</small>
+                    <style>
+                    .g-recaptcha{
+                        display: block;
+                        margin: 20px auto;
+                    }
+                    .g-recaptcha >div{
+                        margin: 0 auto;
+                    }
+                    </style>
+                    <small class="d-block text-center text-light">We don't use our users email for marketing</small>
                 </form>
             </div>
         </div>

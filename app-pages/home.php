@@ -13,6 +13,8 @@ get_template_part('app-pages/home/pricing');
 
 get_template_part('app-pages/home/clients'); 
 
+get_template_part('app-pages/home/work-from-home'); 
+
 get_template_part('app-pages/home/integrations');
 
 get_template_part('app-pages/home/location');

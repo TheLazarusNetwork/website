@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col justify-content-center justify-content-md-center d-flex mb-3 mb-md-0">
-                <p class="footer__copyrights mb-0">Copyrighted 2018 Lazarus Network.</p>
+                <p class="footer__copyrights mb-0">&#169; Copyright 2020 Lazarus Network</p>
             </div>
             <div class="col justify-content-center justify-content-md-end d-flex">
                 <ul class="footer__social list-unstyled m-0 d-flex">
