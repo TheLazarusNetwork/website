@@ -9,7 +9,7 @@ get_header();
 
 get_template_part('app-templates/header/header'); 
 
-get_template_part('app-pages/home/pricing'); 
+get_template_part('app-pages/home/services-carousel'); 
 
 get_template_part('app-pages/home/clients'); 
 
