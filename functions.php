@@ -5,6 +5,9 @@
  * name     :    functions
  */
 
+//config file for css and js
+require get_template_directory().'/app-config.php';
+
 //enqueue file for css and js
 require get_template_directory().'/app-includes/enqueue.php';
 

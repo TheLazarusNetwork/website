@@ -91,11 +91,11 @@
         $form_token = we_form_token($form);
     } 
 ?>
-<section id="subscribe" class="cta-1 section section--padding section--gradient__2">
+<section id="subscribe" class="cta-1 section section--padding section--gradient__5">
     <div class="container">
         <div class="row">
-            <div class="preamble preamble--light col-lg-8 offset-lg-2 mb-5">
-                <h3 class="title">Subscribe</h3>
+            <div class="preamble col-lg-8 offset-lg-2 mb-5">
+                <h3 class="title ">Subscribe</h3>
                 <p class="lead">Subscribe and get updates via email</p>
             </div>
         </div>
@@ -116,7 +116,7 @@
                      * Form Action
                      * Button Name
                      * Button Class for CSS Styling */
-                    echo we_recaptcha_submit_button($api_key, $form_token, $form_action, 'Subscribe', 'button form-button btn btn--blue btn--lg w-100'); 
+                    echo we_recaptcha_submit_button($api_key, $form_token, $form_action, 'Subscribe', 'button form-button btn btn--green btn--lg w-100'); 
                     ?>
                     </div>
                     <style>

@@ -22,33 +22,11 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo get_home_url(); ?>">Home</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Services
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="<?php echo get_home_url().'/vpn'; ?>">
-              Lazarus VPN
-              </a>
-              <a class="dropdown-item" href="<?php echo get_home_url().'/tunnel'; ?>">
-                Lazarus TUNNEL
-              </a>
-              <a class="dropdown-item" href="<?php echo get_home_url().'/stream'; ?>">
-                Live Stream
-              </a>
-              <a class="dropdown-item" href="<?php echo get_home_url().'/drive'; ?>">
-                IPFS Drive
-              </a>
-            </div>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo get_home_url().'/plans'; ?>">Plans</a>
+            <a class="nav-link" href="<?php echo get_home_url().'/all-services'; ?>">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo get_home_url().'/pricing'; ?>">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="<?php echo get_home_url().'/technologies'; ?>">Technologies</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo get_home_url().'/contact'; ?>">Contact Us</a>
@@ -57,7 +35,7 @@
         </ul>
         <ul class="navbar-nav ml-auto justify-content-end align-items-start align-items-lg-center">
           <li class="nav-item">
-            <a class="nav-link nav-link__cta rounded" href="https://app.lazarus.network" target="_blank">Our App</a>
+            <a class="nav-link nav-link__cta rounded" href="https://app.lazarus.network" target="_blank">Dashboard</a>
           </li>
         </ul>
       </div>
@@ -68,22 +46,22 @@
       <div class="row d-flex align-items-center">
         <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1 text-center text-lg-left mb-5 mb-lg-0">
           <div class="pr-0 pr-xl-5 pr-lg-0">
-            <h1 class="main-content__title mb-3 mb-lg-4 h2">Enterprise Grade Cybersecurity For Smart Homes</h1>
+            <h1 class="main-content__title mb-3 mb-lg-4 h2">Enterprise Grade Cybersecurity Solutions for Individuals and Businesses </h1>
             <p class="main-content__lead lead mb-4">Leveraging AI And Blockchain Technologies For Cyber Defense to protect you from online Viruses while you Work From Home.</p>
             <div class="row d-none d-lg-flex">
               <div class="col-lg-6 col-md-6">
                 <ul class="features-list list-unstyled m-0">
                   <li class="features-list__item d-flex align-items-center">
                     <i class="features-list__item--icon mr-2"></i>
-                    <span class="features-list__item--text color--white">Surf internet Anonymously</span>
+                    <span class="features-list__item--text color--white">Surf Internet Anonymously</span>
                   </li>
                   <li class="features-list__item d-flex align-items-center">
                     <i class="features-list__item--icon mr-2"></i>
-                    <span class="features-list__item--text color--white">Secure Distributed Storage</span>
+                    <span class="features-list__item--text color--white">No Advertisements</span>
                   </li>
                   <li class="features-list__item d-flex align-items-center">
                     <i class="features-list__item--icon mr-2"></i>
-                    <span class="features-list__item--text color--white">Decentralised Streaming</span>
+                    <span class="features-list__item--text color--white"> Integrated Firewall</span>
                   </li>
                 </ul>
               </div>
@@ -91,20 +69,20 @@
                 <ul class="features-list list-unstyled m-0">
                   <li class="features-list__item d-flex align-items-center">
                     <i class="features-list__item--icon mr-2"></i>
-                    <span class="features-list__item--text color--white">Open for all</span>
+                    <span class="features-list__item--text color--white">Unlimited Bandwidth</span>
                   </li>
                   <li class="features-list__item d-flex align-items-center">
                     <i class="features-list__item--icon mr-2"></i>
-                    <span class="features-list__item--text color--white">Unlimited Bandwith</span>
+                    <span class="features-list__item--text color--white">Faster Internet Access</span>
                   </li>
                   <li class="features-list__item d-flex align-items-center">
                     <i class="features-list__item--icon mr-2"></i>
-                    <span class="features-list__item--text color--white">No restrictions</span>
+                    <span class="features-list__item--text color--white">Anonymous VPN</span>
                   </li>
                 </ul>
               </div>
             </div>
-            <a href="#" class="btn btn--green btn--lg mb-0 mt-4 d-inline-flex align-items-center">Get in touch<i class="icon icon-Right ml-2"></i></a>
+            <a href="#" class="btn btn--green btn--lg mb-0 mt-4 d-inline-flex align-items-center">Join Us<i class="icon icon-Right ml-2"></i></a>
           </div>
         </div>
         <div class="col-lg-6 text-center text-lg-right position-relative">

@@ -166,6 +166,9 @@
 .section--gradient__6 {
   background-image: radial-gradient(ellipse farthest-side at 100% 100%, #97c9d5 5%, #1b5494 60%, #1f2e5a 120%);
 }
+.section--gradient__7 {
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #abead3 10%, #28f6b7 30%, #377ed5 109%);
+}
 
 html {
   font-size: 100%;
@@ -1694,7 +1697,7 @@ a:hover {
 #pricing.pricing-1 .pricing-card {
   position: relative;
   padding: 40px 30px 40px 30px;
-  margin-top: -280px;
+  margin-top: 100px;
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06);
@@ -3179,9 +3182,9 @@ a:hover {
   z-index: 999;
 }
 
-#locations .location-united-kingdom {
-  top: 34.5%;
-  left: 47%;
+#locations .location-germany {
+  top: 31.2%;
+  left: 49%;
 }
 
 #locations .location-singapore {
@@ -3798,7 +3801,7 @@ a:hover {
 #about.about-1>.container .about-player {
   position: relative;
   border-radius: 9px;
-  background: url(../images/player.jpeg) no-repeat center;
+  background: no-repeat center;
   background-size: cover;
   box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06);
 }
