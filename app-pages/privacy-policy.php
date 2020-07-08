@@ -1,8 +1,8 @@
 <?php
 /**
- * @package     :    LAZARUS
- * @since       :    V 1.0
- * Template Name:    Privacy Policy Page-Template
+ * @package:        LAZARUS
+ * @since:          V 1.0
+ * Template Name:   Privacy Policy Page
  */
 
 get_header(); 

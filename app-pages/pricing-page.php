@@ -1,22 +1,27 @@
 <?php
 /**
- * @package     :    LAZARUS
- * @since       :    V 1.0
- * Template Name:    Pricing-pages Template
+ * @package:        lazarus_network
+ * @since:          V 1.0
+ * Template Name:   Pricing Page
  */
  
-get_header(); 
+global $media_url; ?>
 
-?>
+<!-- Get Header -->
+<?php get_header(); ?>
 
+<style>
+  
+</style>
+
+<!-- Header and Hero -->
 <main id="main" class="main main-1">
-
-    <?php get_template_part('app-templates/header/page-header'); ?>
-
-    <section id="subscribe" class="cta-1 section section--padding  my-img">
-        <div class="container my-padding">
-        </div>
-    </section>
+  <?php get_template_part('app-templates/header'); ?>
+  
+  <section id="subscribe" class="cta-1 section section--padding  my-img">
+    <div class="container my-padding">
+    </div>
+  </section>
 </main>
 
 <!-- Lazarus Personal Plans -->
@@ -379,10 +384,8 @@ get_header();
   </div>
 </section>
 
-<?php
+<!-- Sub Footer -->
+<?php get_template_part('app-templates/sub-footer'); ?>
 
-get_template_part('app-templates/footer/footer'); 
-
-get_footer(); 
-
-?>
+<!-- Footer -->
+<?php get_footer(); ?>

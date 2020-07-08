@@ -1,34 +1,33 @@
 <?php
 /**
- * @package     :    LAZARUS
- * @since       :    V 1.0
- * Template Name:    Home-Page-Template
+ * @package:        lazarus_network
+ * @since:          V 1.0
+ * Template Name:   Home Page
  */
 
-get_header(); 
+global $media_url; ?>
 
-get_template_part('app-templates/header/header'); 
+<!-- Get Header -->
+<?php get_header(); ?>
 
-get_template_part('app-pages/home/services-carousel'); 
+<!-- Header and Hero -->
+<main id="main" class="main main-1">
+  <?php get_template_part('app-templates/header'); ?>
+  <?php get_template_part('app-templates/hero/main-hero'); ?>
+</main>
 
-get_template_part('app-pages/home/pricing-section'); 
+<?php get_template_part('app-pages/home/services-carousel'); ?>
 
-get_template_part('app-pages/home/integrations');
+<?php get_template_part('app-pages/home/pricing-section'); ?>
 
-get_template_part('app-pages/home/location');
+<?php get_template_part('app-pages/home/video'); ?>
 
-// get_template_part('app-pages/home/enterprise-security'); 
+<?php get_template_part('app-pages/home/location'); ?>
 
-// get_template_part('app-pages/home/streaming');
+<?php get_template_part('app-pages/home/form'); ?>
 
-// get_template_part('app-pages/home/team');
+<!-- Sub Footer -->
+<?php get_template_part('app-templates/sub-footer'); ?>
 
-// get_template_part('app-pages/home/drive-features');
-
-get_template_part('app-pages/home/form');
-
-get_template_part('app-templates/footer/sub-footer'); 
-
-get_template_part('app-templates/footer/footer'); 
-
-get_footer(); 
+<!-- Footer -->
+<?php get_footer(); ?>

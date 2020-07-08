@@ -45,7 +45,7 @@ global $media_url;
 
 <section id="pricing" class="pricing pricing-1">
   <div class="container" style=" margin: 0 auto;">
-    <div class="row" style="margin-bottom: 120px;">
+    <div class="row" style="padding-bottom: 120px;">
       <div class="card" style="margin-top: -200px ">
         <div class="col-12 py-2">
           <div id="CarouselTest" class="carousel slide" data-ride="carousel">
@@ -54,6 +54,7 @@ global $media_url;
               <li data-target="#CarouselTest" data-slide-to="0" class="active"></li>
               <li data-target="#CarouselTest" data-slide-to="1"></li>
               <li data-target="#CarouselTest" data-slide-to="2"></li>
+              <li data-target="#CarouselTest" data-slide-to="3"></li>
               <li data-target="#CarouselTest" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
@@ -134,6 +135,30 @@ global $media_url;
                   </div>
                 </div>
               </div>
+
+              <!-- Slide 5 -->
+              <div class="carousel-item p-4">
+                <div class="row">
+                  <div class="col-md-7">
+                    <h4 class="card-title">Lazarus Firewall</h4>
+                    <p class="card-text">Lazarus Firewall is incorporated on the network layer (DNS Layer) for detecting and eliminating cyber threats which try to attack the application system. 
+                    </p>
+                    <ul class="services-vpn">
+                    <li>Network-wide protection</li>
+                    <li>Block in-app advertisements</li>
+                    <li>Improve network performance</li>
+                    <li>Monitor statistics</li>
+                    </ul>
+                    <!-- <p class="card-text">Made for usage, commonly searched for. Fork, like and use it. Just move the carousel div above the col containing the text for left alignment of images</p>
+                    <br> -->
+                    <a href="<?php echo get_home_url().'/all-services/'; ?>" class="mt-auto btn btn--green">Read More</a>
+                  </div>
+                  <div class="col-md-5 m-0 px-5">
+                    <img class="d-block img-fluid" src="<?php echo $media_url; ?>/Media/firewall-solid.png" alt="">
+                  </div>
+                </div>
+              </div>
+
 
               <!-- Prev next Buttons -->
               <a class="carousel-control-prev" href="#CarouselTest" role="button" data-slide="prev">

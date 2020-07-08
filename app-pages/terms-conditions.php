@@ -1,8 +1,8 @@
 <?php
 /**
- * @package     :    LAZARUS
- * @since       :    V 1.0
- * Template Name:    Terms and Conditions Page-Template
+ * @package:        LAZARUS
+ * @since:          V 1.0
+ * Template Name:   Terms and Conditions Page
  */
 
 get_header(); 

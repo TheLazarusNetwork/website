@@ -1,11 +1,16 @@
 <?php
 /**
-* @package :    LAZARUS
-* @since   :    V 1.0
-* name     :    template header 
-*/
-?>
+ * @package:    lazarus_network
+ * @since:      V 1.0
+ * name:        Main Header File
+ */
 
+if(is_404()){
+  $body_class = 'error-page error-404';
+} else {
+  $body_class = 'body-2';
+}
+?>
 <!doctype html>
 <html lang="en">
 
@@ -13,9 +18,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700%7COpen+Sans:400,600" rel="stylesheet">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri().'/app-resources/images/favicon-lazarus.png'; ?>" type="image/x-icon" />
@@ -27,4 +29,4 @@
     <meta name="yandex-verification" content="41cf0511ec3b1a24" />
 </head>
 
-<body class="body-2">
+<body class="<?php echo $body_class; ?>">

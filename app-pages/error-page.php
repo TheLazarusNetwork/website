@@ -1,8 +1,8 @@
 <?php
 /**
- * @package     :    LAZARUS
- * @since       :    V 1.0
- * Template Name:    Error-Page-Template
+ * @package:          LAZARUS
+ * @since:            V 1.0
+ * Template Name:     Error Page
  */
 
 get_header(); 

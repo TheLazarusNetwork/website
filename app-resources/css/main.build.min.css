@@ -3,9 +3,10 @@
 }
 
 section#subscribe.my-img {
-    background-image: url(img/bg1-img.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%
+  background-position: center center ;   
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .container.general-div {
