@@ -6,12 +6,12 @@
 */
 ?>
 
-<section id="services" class="services-1 section section--padding ">
+<section id="services" class="services-1 section section--padding">
     <div class="container">
         <div class="row">
             <div class="preamble col-lg-8 offset-lg-2">
-                <h3 class="title">LAZARUS Pricing Options</h3>
-                <p class="lead">Demonstrating core competencies to in turn innovate. Create stakeholder engagement so that we gain traction.</p>
+                <h3 class="title">Pricing Options</h3>
+                <p class="lead">We have multiple pricing options and two different plans, Personal plan and enterprise plan to protect you from cyber-attacks like ransomware, email spoofing, phishing etc.</p>
             </div>
         </div>
         <div class="row">

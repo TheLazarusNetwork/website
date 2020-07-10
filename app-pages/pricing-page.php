@@ -103,7 +103,7 @@ global $media_url; ?>
 <main id="main" class="main main-1">
   <?php get_template_part('app-templates/header'); ?>
   
-  <section id="subscribe" class="cta-1 section section--padding  my-img">
+  <section id="subscribe" class="cta-1 section section--padding  my-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/app-resources/images/banner.png);">
     <div class="container my-padding">
     </div>
   </section>

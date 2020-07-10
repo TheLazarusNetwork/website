@@ -249,15 +249,11 @@ global $media_url; ?>
           <br>
           <span>
             <a href="mailto:connect@lazarus.network">connect@lazarus.network</a>
-            <br>
-            <a href="mailto:connect@lazarus.network">connect@lazarus.network</a>
           </span>
           <br><br>
           <b>Phone</b>
           <br>
           <span>
-            +91 895 1415 895
-            <br>
             +91 895 1415 895
           </span>
         </div>
