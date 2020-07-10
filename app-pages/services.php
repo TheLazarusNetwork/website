@@ -39,7 +39,7 @@ global $media_url; ?>
             <div class="col-xl-6 col-lg-5 order-2 order-lg-1">
                 <div class="preamble text-left pr-4 mb-0">
                     <h3 class="title">Personal Security</h3>
-                    <p class="lead"></p>
+                    <p class="lead">All of us are vulnerable to opportunistic online predators.  We provide a way to attack the attack before it happens.  We solve the challenge of data overload through our unique delivery of customized threat intelligence, investigation, and analysis.  We work directly with you or join the team already helping.</p>
                     
                 </div>
             </div>
@@ -47,24 +47,24 @@ global $media_url; ?>
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="feature-card">
-                            <i class="icon-Data-Refresh icon--color icon--md mb-3"></i>
+                            <img src="<?php echo $media_url; ?>/Media/vpn-logo1.png" class="img-fluid" style="height: auto; width: 75px;">
                             <h5 class="mb-3">VPN</h5>
                             <p class="mb-0">Lazarus VPN is an encrypted tunneling solution for end users offering WireGuard® Tunneling, secured by Ed25519 Private Key Encryption, Multi Region Network, Peer to Peer network access and a lot more.</p>
                         </div>
                         <div class="feature-card">
-                            <i class="icon-SSL icon--color icon--md mb-3"></i>
+                            <img src="<?php echo $media_url; ?>/Media/firewall-icon-dark.png" class="img-fluid" style="height: auto; width: 75px;">
                             <h5 class="mb-3">FIREWALL</h5>
                             <p class="mb-0">Lazarus Firewall is incorporated on the network layer (DNS Layer) for detecting and eliminating cyber threats which try to attack the application system.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 with--margin">
                         <div class="feature-card">
-                            <i class="icon-Headset icon--color icon--md mb-3"></i>
+                            <img src="<?php echo $media_url; ?>/Media/stream-logo - dark.png" class="img-fluid" style="height: auto; width: 75px;">
                             <h5 class="mb-3">STREAM</h5>
                             <p class="mb-0">Lazarus Stream leverages IPFS Network for the content delivery and relay of streams for hosting the video calls within the private network created with Lazarus VPN. </p>
                         </div>
                         <div class="feature-card">
-                            <i class="icon-Chrome icon--color icon--md mb-3"></i>
+                            <img src="<?php echo $media_url; ?>/Media/drive-logo -dark.png" class="img-fluid" style="height: auto; width: 75px;">
                             <h5 class="mb-3">DRIVE</h5>
                             <p class="mb-0">Lazarus Drive is a private file storage service on the cloud and the connected devices based on the IPFS - A peer-to-peer hypermedia protocol</p>
                         </div>
@@ -79,9 +79,9 @@ global $media_url; ?>
 <section id="services" class="services-4 section section--padding__wmargin section--gradient__3">
     <div class="container">
         <div class="row">
-            <div class="preamble preamble--light col-lg-8 offset-lg-2">
+            <div class="preamble preamble--light col-12 mx-auto ">
                 <h3 class="title">Enterprise Security</h3>
-                <p class="lead">Demonstrating core competencies to in turn innovate. Create stakeholder engagement so that we gain traction.</p>
+                <p class="lead">We provide customizable consulting services built on proven methodology to strengthen your business cyber security defenses. Once we have determined your cyber health from every angle, we then take this vital, accurate assessment, to create a cyber defense. At any point, Fortalice can present board briefings, create webinars, and establish executive coaching to take your new defense to every level of your business across various platforms. Our goal is to keep your company abreast of modern cyber threats and create a defensive strategy with practical solutions to strengthen your key business objectives.</p>
             </div>
         </div>
         <div class="row">
@@ -93,7 +93,7 @@ global $media_url; ?>
             <div class="service col-lg-3 col-md-6 col-sm-6 text-center my-5">
                 <img src="<?php echo $media_url; ?>/Media/firewall-shield/firewall-icon-white.png" class="img-fluid" style="height: auto; width: 75px;"> 
                 <h5 class="service__header">FIREWALL SHIELD </h5>
-                <p class="service__description">Lazarus Firewall Shield allows further configurations to the Firewall in case there are a few applications running within the network which need to accessed over the public internet. It handles Application Endpoint Security, DDoS protection, Custom User profile.</p>
+                <p class="service__description">Lazarus Firewall Shield allows further configurations to the Firewall in case there are a few applications running within the network which need to accessed over the public internet. It supports dynamic DNS connections </p>
             </div>
             <div class="service col-lg-3 col-md-6 col-sm-6 text-center my-5">
                 <img src="<?php echo $media_url; ?>/Media/email/lazarus-email-icon-white.png" class="img-fluid" style="height: auto; width: 75px;"> 
@@ -110,7 +110,7 @@ global $media_url; ?>
             <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
                 <img src="<?php echo $media_url; ?>/Media/stream/stream-icon-white.png" class="img-fluid" style="height: auto; width: 75px;">         
                 <h5 class="service__header">STREAM</h5>
-                <p class="service__description">Lazarus Stream solution is currently based on the network hosted Jitsi Meet - Secure, fully featured, and completely free video conferencing tool.Supports video chat with the whole team.</p>
+                <p class="service__description">Lazarus Stream solution is currently based on the network hosted Jitsi Meet. Supports video chat with the whole team.Lazarus Stream leverages IPFS Network for the content delivery and relay of streams for hosting the video calls within the private network created with Lazarus VPN. </p>
             </div>
             <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
                 <img src="<?php echo $media_url; ?>/Media/blockchain/blockchain-icon-white.png" class="img-fluid" style="height: auto; width: 75px;"> 
@@ -120,12 +120,12 @@ global $media_url; ?>
             <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
                 <img src="<?php echo $media_url; ?>/Media/tunnel/tunnel-icon-white.png" class="img-fluid" style="height: auto; width: 75px;">  
                 <h5 class="service__header">TUNNEL</h5>
-                <p class="service__description">Lazarus Tunnel Solution allows any system to open ports on the local machine bypassing the firewalls and NAT to the Internet. </p>
+                <p class="service__description">Lazarus Tunnel Solution allows any system to open ports on the local machine bypassing the firewalls and NAT to the Internet. With Lazarus Tunnel, users can send data between devices using a secure and encrypted network and host local networks to a temporary public network.</p>
             </div>
             <div class="service col-lg-3 col-md-6 col-sm-6 text-center">
                 <img src="<?php echo $media_url; ?>/Media/gateway/gateway-icon-white.png" class="img-fluid" style="height: auto; width: 75px;"> 
                 <h5 class="service__header">GATEWAY</h5>
-                <p class="service__description">Smart Hardware Device offering secure WiFi and all the above mentioned services. Best suited for Smart Home and Office Users who wish to have the network and data hosted locally.</p>
+                <p class="service__description">Smart Hardware Device offering secure WiFi and all the above mentioned services. Best suited for Home and Office Users who wish to have the network and data hosted locally. Thanks to gateways, we are able to communicate and send data back and forth.</p>
             </div>
         </div>
     </div>

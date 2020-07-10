@@ -9,8 +9,8 @@
     <div class="container">
         <div class="row">
             <div class="preamble preamble--light col-lg-8 offset-lg-2">
-                <h3 class="title">How it Works</h3>
-                <p class="lead">Demonstrating core competencies to in turn innovate. Create stakeholder engagement so that we gain traction.</p>
+                <h3 class="title">What it does?</h3>
+                <p class="lead">Lazarus Network leverages AI and Blockchain Technologies For Cyber Defense to protect individuals and companies from cyber-attacks like ransomware, email spoofing, phishing etc. We help them by securing the network layer within their home/office so that all applications can only access authorized services and malicious services are blocked.</p>
             </div>
         </div>
         <div class="row justify-content-center">

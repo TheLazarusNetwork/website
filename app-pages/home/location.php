@@ -18,8 +18,7 @@
             <div class="col-lg-12">
                 <img src="https://lazarus.network/wp-content/themes/lazarus/app-resources/images/map.png" alt=""
                     class="map img-fluid">
-                <div class="location location-germany" data-toggle="tooltip" data-html="true"
-                    title="<h5>United Kingdom</h5><p>2 Nodes</p>">
+                <div class="location location-germany" data-toggle="tooltip" data-html="true" title="<h5>Germany</h5><p>2 Nodes</p>">
                     <div class="location__pin"></div>
                     <div class="location__rwd d-block d-md-none">
                         <h5>Germany</h5>

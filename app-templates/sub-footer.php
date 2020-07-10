@@ -19,7 +19,7 @@ global $media_url; ?>
             <div class="contact feature d-flex">
               <h5 class="text-white ">About Lazarus Network</h5>
             </div>
-            <p style="color: #eee;">Leveraging AI And Blockchain Technologies For Cyber Defense to protect you from online Viruses while you Work From Home.</p>
+            <p style="color: #eee;">Safe Internet & CyberSecurity For All - Providing Cyber Defense solution to Individuals & Startups.</p>
           </div>
         </div>
       </div>
