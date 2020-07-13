@@ -18,13 +18,13 @@
             <div class="col-lg-6">
                 <div class="feature-card mb-4 mb-lg-0">
                     <i class="icon icon-University icon--md icon--color"></i>
-                    <h4 class="feature-card__title mb-4 mt-4">For Enterprise Security</h4>
+                    <h4 class="feature-card__title mb-4 mt-4">For Personal Security</h4>
                     <ul class="list-unstyled m-0">
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Communicate securely</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Stay in touch with your clients</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Time entry and billing</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Document Automation</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Flexible Payout Schedule</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>No Traffic / Request Logs</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Unmetered Data Transfer</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Anonymous VPN</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Block ADs, Trackers and Malware</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Firewall Enabled</span></li>
                     </ul>
                     <a href="#" class="btn btn--green mb-0 mt-4 d-inline-flex align-items-center">Know More<i class="icon icon-Right ml-2"></i></a>
                 </div>
@@ -33,13 +33,13 @@
             <div class="col-lg-6">
                 <div class="feature-card">
                     <i class="icon icon-MaleFemale icon--md icon--color"></i>
-                    <h4 class="feature-card__title mb-4 mt-4">For Personal Security</h4>
+                    <h4 class="feature-card__title mb-4 mt-4">For Enterprise Security </h4>
                     <ul class="list-unstyled m-0">
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Get your payment via wire transfer</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Contact your account manager for more</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Legal Departments</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>5GB of total file storage for the team</span></li>
-                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>$14,50 per month cheaper</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Multiple Solutions for Enterprises</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span> Dedicated IP Addresses</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Blockchain Services</span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Server & Application Security </span></li>
+                        <li class="d-flex align-items-center"><i class="feature-card__icon icon icon-Yes"></i><span>Priority Support </span></li>
                     </ul>
                     <a href="#" class="btn btn--green mb-0 mt-4 d-inline-flex align-items-center">Know More<i class="icon icon-Right ml-2"></i></a>
                 </div>

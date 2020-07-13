@@ -39,7 +39,7 @@ global $media_url; ?>
             <div class="col-xl-6 col-lg-5 order-2 order-lg-1">
                 <div class="preamble text-left pr-4 mb-0">
                     <h3 class="title">Personal Security</h3>
-                    <p class="lead">All of us are vulnerable to opportunistic online predators.  We provide a way to attack the attack before it happens.  We solve the challenge of data overload through our unique delivery of customized threat intelligence, investigation, and analysis.  We work directly with you or join the team already helping.</p>
+                    <p class="lead">Lazarus Network Personal Cybersecurity Plan protects your privacy and confidential data Online. All of us are vulnerable to opportunistic online predators. At the Lazarus Network, you get a secure private network and firewall to access confidential and personal data online. We solve this challenge of data overload through our unique delivery of customized threat intelligence, investigation, and analysis.</p>
                     
                 </div>
             </div>
@@ -81,7 +81,7 @@ global $media_url; ?>
         <div class="row">
             <div class="preamble preamble--light col-12 mx-auto ">
                 <h3 class="title">Enterprise Security</h3>
-                <p class="lead">We provide customizable consulting services built on proven methodology to strengthen your business cyber security defenses. Once we have determined your cyber health from every angle, we then take this vital, accurate assessment, to create a cyber defense. At any point, Fortalice can present board briefings, create webinars, and establish executive coaching to take your new defense to every level of your business across various platforms. Our goal is to keep your company abreast of modern cyber threats and create a defensive strategy with practical solutions to strengthen your key business objectives.</p>
+                <p class="lead">Lazarus Network Enterprise Cybersecurity plan protects your business and its confidential data Online. Our team will connect with you to determine your cyber health from every angle. We then take this vital and accurate assessment of your current requirement to provide you an array of customized security solutions we have. We provide you the full flexibility to further customize our solution as per your need. Our goal is to keep your company abreast of modern cyber threats and create a defensive strategy with practical solutions to strengthen your key business objectives.</p>
             </div>
         </div>
         <div class="row">
