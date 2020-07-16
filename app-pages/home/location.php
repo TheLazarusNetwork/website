@@ -18,43 +18,35 @@
             <div class="col-lg-12">
                 <img src="https://lazarus.network/wp-content/themes/lazarus/app-resources/images/map.png" alt=""
                     class="map img-fluid">
-                <div class="location location-germany" data-toggle="tooltip" data-html="true" title="<h5>Germany</h5><p>2 Nodes</p>">
+                <div class="location location-germany" data-toggle="tooltip" data-html="true" title="<h5>Germany</h5><p>eu-central-1b </p>">
                     <div class="location__pin"></div>
                     <div class="location__rwd d-block d-md-none">
                         <h5>Germany</h5>
-                        <p>2 Nodes</p>
-                    </div>
-                </div>
-                <div class="location location-canada" data-toggle="tooltip" data-html="true"
-                    title="<h5>Canada Node</h5><p>2 Nodes</p>">
-                    <div class="location__pin"></div>
-                    <div class="location__rwd d-block d-md-none">
-                        <h5>Canada Node</h5>
-                        <p>2 Nodes</p>
+                        <p>eu-central-1b </p>
                     </div>
                 </div>
                 <div class="location location-usa" data-toggle="tooltip" data-html="true"
-                    title="<h5>USA Node</h5><p>4 Nodes</p>">
+                    title="<h5>USA Node</h5><p>us-west-1c</p>">
                     <div class="location__pin"></div>
                     <div class="location__rwd d-block d-md-none">
-                        <h5>USA Node</h5>
-                        <p>4 Nodes</p>
+                        <h5>USA</h5>
+                        <p>us-west-1c </p>
                     </div>
                 </div>
                 <div class="location location-singapore" data-toggle="tooltip" data-html="true"
-                    title="<h5>Singapore Node</h5><p>2 Nodes</p>">
+                    title="<h5>Singapore Node</h5><p>ap-southeast-1c</p>">
                     <div class="location__pin"></div>
                     <div class="location__rwd d-block d-md-none">
-                        <h5>Singapore Node</h5>
-                        <p>2 Nodes</p>
+                        <h5>Singapore</h5>
+                        <p>ap-southeast-1c </p>
                     </div>
                 </div>
                 <div class="location location-india" data-toggle="tooltip" data-html="true"
-                    title="<h5>India Node</h5><p>2 Nodes</p>">
+                    title="<h5>India Node</h5><p>ap-south-1c </p>">
                     <div class="location__pin"></div>
                     <div class="location__rwd d-block d-md-none">
-                        <h5>India Node</h5>
-                        <p>2 Nodes</p>
+                        <h5>India</h5>
+                        <p>ap-south-1c </p>
                     </div>
                 </div>
             </div>
