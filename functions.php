@@ -10,3 +10,6 @@ require get_template_directory().'/app-config.php';
 
 //enqueue file for css and js
 require get_template_directory().'/app-includes/enqueue.php';
+
+//enqueue file for feature image
+require get_template_directory().'/app-functions/blog-core-setup.php';

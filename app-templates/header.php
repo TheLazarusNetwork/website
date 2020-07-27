@@ -30,6 +30,9 @@ global $media_url; ?>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo get_home_url().'/contact'; ?>">Contact Us</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo get_home_url().'/single'; ?>">News</a>
+        </li>
       </ul>
       <ul class="navbar-nav ml-auto justify-content-end align-items-start align-items-lg-center">
         <li class="nav-item">
