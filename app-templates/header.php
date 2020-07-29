@@ -31,7 +31,7 @@ global $media_url; ?>
           <a class="nav-link" href="<?php echo get_home_url().'/contact'; ?>">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo get_home_url().'/single'; ?>">News</a>
+          <a class="nav-link" href="<?php echo get_home_url().'/all-news'; ?>">News</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto justify-content-end align-items-start align-items-lg-center">
