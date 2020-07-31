@@ -3,7 +3,7 @@
 ?>
 
 <!-- see this is the template of post -->
-<div class="col-md-4 col-sm-6 col-12">
+<div class="col-md-6 col-12">
   <div class="card">
     <img src="<?php the_post_thumbnail_url($post_id, 'small_image'); ?>" class="card-img-top">
     <div class="card-body">

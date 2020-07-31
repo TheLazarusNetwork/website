@@ -51,6 +51,7 @@
   background-image: radial-gradient(ellipse farthest-side at 100% 100%, #1cafc6 20%, #007fb2 50%, #012690 110%);
 }
 
+
 .section--padding {
   padding: 120px 0;
 }
@@ -164,7 +165,7 @@
 }
 
 .section--gradient__6 {
-  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #97c9d5 5%, #1b5494 60%, #1f2e5a 120%);
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #97c9d5 5%, #1b5494 60%, #012690  120%);
 }
 .section--gradient__7 {
   background-image: radial-gradient(ellipse farthest-side at 100% 100%, #abead3 10%, #28f6b7 30%, #377ed5 109%);
