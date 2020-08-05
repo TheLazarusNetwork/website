@@ -31,6 +31,9 @@ global $media_url; ?>
           <a class="nav-link" href="<?php echo get_home_url().'/all-news'; ?>">News</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="<?php echo get_home_url().'/podcast'; ?>">Podcast</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="<?php echo get_home_url().'/contact'; ?>">Contact Us</a>
         </li>
         
