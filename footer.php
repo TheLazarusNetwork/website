@@ -15,7 +15,7 @@
           <p class="mb-0 ml-3"><a href="<?php echo get_home_url().'/terms-conditions'; ?>">Terms</a> | <a href="<?php echo get_home_url().'/privacy-policy'; ?>">Privacy</a></p>
         </div>
       </div>
-      <div class="col-6 justify-content-center justify-content-md-center d-flex mb-3 mb-md-0">
+      <div class="col-6 justify-content-end justify-content-md-end d-flex mb-3 mb-md-0">
         <p class="footer__copyrights mb-0">&#169; Copyright 2020 Lazarus Network</p>
       </div>
     </div>
