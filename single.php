@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="row">
       <div class="col-12 p-3">
         <div class="blog-img rounded">
-          <img src="<?php echo get_the_post_thumbnail_url($post_id, 'full'); ?>" class="img-fluid rounded" >
+          <img src="<?php echo get_the_post_thumbnail_url($post_id, 'full'); ?>" class="w-100 rounded" >
         </div>
         <p class="my-3 text-center">
           <span>Date: <?php echo get_the_date(); ?></span>

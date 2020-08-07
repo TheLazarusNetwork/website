@@ -4,10 +4,12 @@
 
 <!-- see this is the template of post -->
 <div class="col-md-6 col-12">
-  <div class="card">
-    <img src="<?php the_post_thumbnail_url($post_id, 'small_image'); ?>" class="card-img-top">
+  <div class="card mx-3 my-3">
+    <a href="<?php the_permalink(); ?>">
+      <img src="<?php the_post_thumbnail_url($post_id, 'small_image'); ?>" class="card-img-top">
+    </a>
     <div class="card-body">
-      <h5 class="card-title mb-0"><?php the_title(); ?></h5>
+      <h5 class="card-title m-0"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
       <p class="mb-3">
         <small>
         <span>Date: <?php echo get_the_date(); ?></span>
