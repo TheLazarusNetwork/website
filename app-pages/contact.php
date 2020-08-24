@@ -208,7 +208,7 @@ global $media_url; ?>
   <?php get_template_part('app-templates/header'); ?>
 
   <section id="subscribe" class="cta-1 section section--padding  my-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/app-resources/images/banner.png);>
-    <div class="container my-padding">
+    <div class=" container my-padding">
     </div>
   </section>
 </main>
@@ -228,11 +228,11 @@ global $media_url; ?>
         <div class="contact">
           <h2>Send us a message</h2>
         </div>
-        <form id="contact-form" action="mail.php" method="post">
-          <input name="name" type="text" placeholder="Name">
-          <input name="email" type="text" placeholder="Email">
-          <textarea name="message" placeholder="Your message"></textarea>
-          <button class="submit" type="submit" value="Send">SUBMIT</button>
+        <form id="contact-form" action="" method="post" onsubmit="send_message(event)">
+          <input name="name" type="text" placeholder="Name" id="name-field" required>
+          <input name="email" type="text" placeholder="Email" id="email-field" required>
+          <textarea name="message" placeholder="Your message" id="message-field"></textarea>
+          <button class="submit" type="submit">SUBMIT</button>
         </form>
         <p class="form-messege"></p>
       </div>

@@ -73,7 +73,7 @@ global $media_url;
                     </ul>
                     <!-- <p class="card-text">Made for usage, commonly searched for. Fork, like and use it. Just move the carousel div above the col containing the text for left alignment of images</p>
                     <br> -->
-                    <a href="<?php echo get_home_url().'/all-services/'; ?>" class="mt-auto btn btn--green">Read More</a>
+                    <a href="<?php echo get_home_url().'/services'; ?>" class="mt-auto btn btn--green">Read More</a>
                   </div>
                   <div class="col-md-5 m-0 px-5">
                     <img class="d-block img-fluid" src="<?php echo $media_url; ?>/Media/vpn-solid.png" alt="">
@@ -90,11 +90,10 @@ global $media_url;
                     </p>
                     <ul class="services-drive">
                     <li>Decentralized Cloud Storage</li>
-                    <li>Decentralized Cloud Storage</li>
                     <li>Backups</li>
                     </ul>
 
-                    <a href="#" class="mt-auto btn btn--green">Read More</a>
+                    <a href="<?php echo get_home_url().'/services'; ?>" class="mt-auto btn btn--green">Read More</a>
                   </div>
                   <div class="col-md-5 m-0 px-5">
                     <img class="d-block img-fluid" src="<?php echo $media_url; ?>/Media/drive-solid.png" alt="">
@@ -113,7 +112,7 @@ global $media_url;
                     <li>Change the way you communicate</li>
                     <li>Audio and Video Calls</li>
                     </ul>
-                    <a href="#" class="mt-auto btn btn--green">Read More</a>
+                    <a href="<?php echo get_home_url().'/services'; ?>" class="mt-auto btn btn--green">Read More</a>
                   </div>
                   <div class="col-md-5 m-0 px-5">
                     <img class="d-block img-fluid" src="<?php echo $media_url; ?>/Media/stream-solid.png" alt="">
@@ -128,7 +127,7 @@ global $media_url;
                     <h4 class="card-title">Lazarus Tunnel</h4>
                     <p class="card-text">Lazarus Tunnel Solution allows any system to open ports on the local machine bypassing the firewalls and NAT to the Internet.
                     </p>                    
-                    <a href="#" class="mt-auto btn btn-primary btn--green">Read More</a>
+                    <a href="<?php echo get_home_url().'/services'; ?>" class="mt-auto btn btn-primary btn--green">Read More</a>
                   </div>
                   <div class="col-md-5 m-0 px-5">
                     <img class="d-block img-fluid" src="<?php echo $media_url; ?>/Media/tunnel-solid.png" alt="">
@@ -151,7 +150,7 @@ global $media_url;
                     </ul>
                     <!-- <p class="card-text">Made for usage, commonly searched for. Fork, like and use it. Just move the carousel div above the col containing the text for left alignment of images</p>
                     <br> -->
-                    <a href="<?php echo get_home_url().'/all-services/'; ?>" class="mt-auto btn btn--green">Read More</a>
+                    <a href="<?php echo get_home_url().'/services'; ?>" class="mt-auto btn btn--green">Read More</a>
                   </div>
                   <div class="col-md-5 m-0 px-5">
                     <img class="d-block img-fluid" src="<?php echo $media_url; ?>/Media/firewall-solid.png" alt="">

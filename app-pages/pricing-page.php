@@ -340,7 +340,7 @@ global $media_url; ?>
     <div class="row pt-5">
       <div class="col-12 pt-5 text-center">
         <h4 class="pt-5">Corporate Custom Plan</h4>
-        <p>COntact us for corporate custom plans. Our experts will be in touch with you to offer customized Dedicated Virtual Private Network with limitless resource as per your need. Bandwidth upto 1 Gbps, unlimited VPN clients and more.</p>
+        <p>Contact us for corporate custom plans. Our experts will be in touch with you to offer customized Dedicated Virtual Private Network with limitless resource as per your need. Bandwidth up to 1 Gbps, unlimited VPN clients and more.</p>
         <a href="<?php echo get_home_url().'/contact/' ?>" class="btn btn--blue btn--lg">Contact Us</a>
       </div>
     </div>

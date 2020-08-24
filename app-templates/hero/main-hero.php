@@ -48,7 +48,7 @@ global $media_url; ?>
               </ul>
             </div>
           </div>
-          <a href="#" class="btn btn--green btn--lg mb-0 mt-4 d-inline-flex align-items-center">Join Us<i class="icon icon-Right ml-2"></i></a>
+          <a href="<?php echo get_home_url().'/contact'; ?>" class="btn btn--green btn--lg mb-0 mt-4 d-inline-flex align-items-center">Join Us<i class="icon icon-Right ml-2"></i></a>
         </div>
       </div>
       <div class="col-lg-6 text-center text-lg-right position-relative">

@@ -410,3 +410,56 @@ $(document).scroll(function () {
   }
 
 });
+
+//form-submission
+function send_message(event){  //ye parameter kyou liy fir? parameter delete kar do
+  event.preventDefault(); // So that page will not reload ok // local host mai check karo  //function not coming yes ????
+
+  var name = $('#name-field').val();  // Now we need to get the value, to get the value you don't need to know the
+  var email = $('#email-field').val();  //email ka likho aur message ka field bhi
+  var message = $('#message-field').val(); // now we will test that we are getting the values correctly
+
+  // console.log(name + " " + email + " " + message); // no commas, in php we use . in JS we use + to concatenate string
+
+  //  ye kaise hua muje samaj nahi aa rhah
+  //  hum jo input field me value dalenge vo is variable me store hogi?
+  //  yes, jab hum "send_message" function call karniangai toh
+  //  1. send message function run hoga
+  //   2. jquery input fields ka balue variable mai store kardega
+  //   3. hum vriable ko log kardengai aur consloe maicheck karingai we are not connected - it doesnot matter okay
+
+  $.ajax({
+    type: "POST",
+    url: homeURL + "/api/connect/",
+    data: {
+      "name": name, // should be small
+      "email": email,
+      "message": message
+    }
+  }).done(function(result){
+    if(result.status){
+      window.location.href = homeURL + "/thank-you/";
+    } else {
+      console.log(result);
+    }
+  });
+
+  return false;
+}
+
+      /**
+       * Created a variable homeURL in footer.php
+       * 
+       * coz, we needed home url, and we can get home url from PHP
+       * php is not creating but our data can go to mail.php and in return we can show thankyou page what is the need for homepage in between
+       * 
+       * how will you send the user to thankyou page
+       * 
+       * homepage + thanyou page directory will be thanyou page URL
+       * 
+       * "http://localhost/lazarus" => home page "/thank-you/" => thank you page directory = by adding it will create a URL
+       * 
+       * 
+       * Yes we did it several times please explain this to me tomorrow on VC remember to explain it
+       * Okay i will remember now do fast so that you can work on chase and me on static login html yes yes
+       */ 

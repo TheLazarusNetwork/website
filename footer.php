@@ -22,6 +22,10 @@
   </div>
 </footer>
 
+<script>
+  var homeURL = "<?php echo get_home_url(); ?>";
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>

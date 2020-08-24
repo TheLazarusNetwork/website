@@ -95,7 +95,7 @@ global $media_url; ?>
           <img class="img-fluid" src="<?php echo $media_url ?>/Media/lazarus-drive-icon.png">
         </div>
         <h3>Lazarus Drive</h3>
-        <p class="lead">Lazarus Drive is a private file storage service on the cloud and the connected devices based on the IPFS - A peer-to-peer hypermedia protocol to Publish files on the private Internet without worrying if they will be tampered with, and share them with others within the network.</p>
+        <p class="lead">Lazarus Drive is a private file storage service on the cloud and the connected devices based on the IPFS - A peer-to-peer hypermedia protocol to publish files on the private Internet without worrying if they will be tampered with, and share them with others within the network.</p>
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ global $media_url; ?>
     <div class="row">
       <div class="preamble col-lg-8 offset-lg-2 mt-5 pt-3">
         <h2 class="title">Communication</h2>
-        <p class="lead">Changing the way you communicate. STake control of your data privacy with end-to-end encryption.</p>
+        <p class="lead">Changing the way you communicate. Stake control of your data privacy with end-to-end encryption.</p>
       </div>
     </div>
     <div class="row">

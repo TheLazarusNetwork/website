@@ -954,7 +954,7 @@ a:hover {
 
 #main.main-1 {
   position: relative;
-  overflow: hidden;
+    /* overflow: hidden; */
   background-image: radial-gradient(ellipse farthest-side at 100% 100%, #dbf6c8 20%, #1cafc6 50%, #012690 110%);
 }
 

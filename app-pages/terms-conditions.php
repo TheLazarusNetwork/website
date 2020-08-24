@@ -9,14 +9,14 @@ get_header();
 
 ?>
 
+<!-- Header and Hero -->
 <main id="main" class="main main-1">
+  <?php get_template_part('app-templates/header'); ?>
 
-    <?php get_template_part('app-templates/header/page-header'); ?>
-
-    <section id="subscribe" class="cta-1 section section--padding section--gradient__2 my-img">
-        <div class="container my-padding">
-        </div>
-    </section>
+  <section id="subscribe" class="cta-1 section section--padding my-img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/app-resources/images/banner.png);">
+    <div class="container my-padding">
+    </div>
+  </section>
 </main>
 
 <div class="container general-div">
@@ -163,53 +163,33 @@ get_header();
             </div>
             <div>
                 <h4 class="title">Services “AS IS” </h4>
-                <p>We strive to provide great Services, but there are certain things that we can't guarantee. TO THE
-                    FULLEST EXTENT PERMITTED BY LAW, Lazarus Inc AND ITS AFFILIATES, SUPPLIERS AND DISTRIBUTORS MAKE NO
-                    WARRANTIES, EITHER EXPRESS OR IMPLIED, ABOUT THE SERVICES. THE SERVICES ARE PROVIDED "AS IS." WE
-                    ALSO DISCLAIM ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
-                    NON-INFRINGEMENT. Some places don’t allow the disclaimers in this paragraph, so they may not apply
-                    to you.
+                <p>We strive to provide great services, but there are certain things that we can't guarantee. To the fullest extent permitted by law, lazarus inc and its affiliates, suppliers and distributors make no warranties, either express or implied, about the services. The services are provided "As is." we also disclaim any warranties of merchantability, fitness for a particular purpose, and non-infringement. Some places don’t allow the disclaimers in this paragraph, so they may not apply to you.
                 </p>
             </div>
             <div>
                 <h4 class="title">Limitation of Liability Discontinuation of Services </h4>
-                <p>WE DON’T EXCLUDE OR LIMIT OUR LIABILITY TO YOU WHERE IT WOULD BE ILLEGAL TO DO SO—THIS INCLUDES ANY
-                    LIABILITY FOR LAZARUS’S OR ITS AFFILIATES’ FRAUD OR FRAUDULENT MISREPRESENTATION IN PROVIDING THE
-                    SERVICES. IN COUNTRIES WHERE THE FOLLOWING TYPES OF EXCLUSIONS AREN’T ALLOWED, WE'RE RESPONSIBLE TO
-                    YOU ONLY FOR LOSSES AND DAMAGES THAT ARE A REASONABLY FORESEEABLE RESULT OF OUR FAILURE TO USE
-                    REASONABLE CARE AND SKILL OR OUR BREACH OF OUR CONTRACT WITH YOU. THIS PARAGRAPH DOESN’T AFFECT
-                    CONSUMER RIGHTS THAT CAN'T BE WAIVED OR LIMITED BY ANY CONTRACT OR AGREEMENT.
+                <p>We don’t exclude or limit our liability to you where it would be illegal to do so—this includes any liability for Lazarus's or its affiliates’ fraud or fraudulent misrepresentation in providing the services. In countries where the following types of exclusions aren’t allowed, we're responsible to you only for losses and damages that are a reasonably foreseeable result of our failure to use reasonable care and skill or our breach of our contract with you. This paragraph doesn’t affect consumer rights that can't be waived or limited by any contract or agreement.
                 </p>
-                <p>IN COUNTRIES WHERE EXCLUSIONS OR LIMITATIONS OF LIABILITY ARE ALLOWED, Lazarus Inc, ITS AFFILIATES,
-                    SUPPLIERS OR DISTRIBUTORS WON’T BE LIABLE FOR: </p>
+                <p>In countries where exclusions or limitations of liability are allowed, Lazarus inc, its affiliates, suppliers or distributors won’t be liable for: </p>
                 <ol class="list-unstyled">
 
                     <li>
-                        <strong>(a) </strong> ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, EXEMPLARY, OR CONSEQUENTIAL
-                        DAMAGES, OR
+                        <strong>(a) </strong> any indirect, special, incidental, punitive, exemplary, or consequential damages, or
                     </li>
 
                     <li>
-                        <strong>(b) </strong> ANY LOSS OF USE, DATA, BUSINESS, OR PROFITS, REGARDLESS OF LEGAL THEORY.
+                        <strong>(b) </strong> any loss of use, data, business, or profits, regardless of legal theory.
                     </li>
 
                     <li>
-                        <strong>(c) </strong> you don’t have a Paid Account and haven't accessed our Services for 12
-                        consecutive months.
+                        <strong>(c) </strong> you don’t have a paid account and haven't accessed our services for 12 consecutive months.
                     </li>
                 </ol>
-                <p>THESE EXCLUSIONS OR LIMITATIONS WILL APPLY REGARDLESS OF WHETHER OR NOT LAZARUS OR ANY OF ITS
-                    AFFILIATES HAS BEEN WARNED OF THE POSSIBILITY OF SUCH DAMAGES.
+                <p>These exclusions or limitations will apply regardless of whether or not Lazarus or any of its affiliates has been warned of the possibility of such damages.
                 </p>
-                <p>IF YOU USE THE SERVICES FOR ANY COMMERCIAL, BUSINESS, OR RE-SALE PURPOSE, LAZARUS, ITS AFFILIATES,
-                    SUPPLIERS OR DISTRIBUTORS WILL HAVE NO LIABILITY TO YOU FOR ANY LOSS OF PROFIT, LOSS OF BUSINESS,
-                    BUSINESS INTERRUPTION, OR LOSS OF BUSINESS OPPORTUNITY. LAZARUS AND ITS AFFILIATES AREN’T
-                    RESPONSIBLE FOR THE CONDUCT, WHETHER ONLINE OR OFFLINE, OF ANY USER OF THE SERVICES.
+                <p>If you use the services for any commercial, business, or re-sale purpose, Lazarus, its affiliates, suppliers, or distributors will have no liability to you for any loss of profit, loss of business, business interruption, or loss of business opportunity. Lazarus and its affiliates aren’t responsible for the conduct, whether online or offline, of any user of the services.
                 </p>
-                <p>IN COUNTRIES WHERE EXCLUSIONS OR LIMITATIONS OF LIABILITY ARE ALLOWED, Lazarus Inc, ITS AFFILIATES,
-                    SUPPLIERS OR DISTRIBUTORS WON’T BE LIABLE FOR:OTHER THAN FOR THE TYPES OF LIABILITY WE CANNOT LIMIT
-                    BY LAW (AS DESCRIBED IN THIS SECTION), WE LIMIT OUR LIABILITY TO YOU TO THE GREATER OF $20 USD OR
-                    100% OF ANY AMOUNT YOU'VE PAID UNDER YOUR CURRENT SERVICE PLAN WITH LAZARUS.
+                <p>In countries where exclusions or limitations of liability are allowed, Lazarus inc, its affiliates, suppliers or distributors won’t be liable for: other than for the types of liability we cannot limit by law (as described in this section), we limit our liability to you to the greater of $20 USD or 100% of any amount you've paid under your current service plan with Lazarus.
                 </p>
             </div>
             <div>
