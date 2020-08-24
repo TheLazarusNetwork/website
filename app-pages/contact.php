@@ -228,10 +228,10 @@ global $media_url; ?>
         <div class="contact">
           <h2>Send us a message</h2>
         </div>
-        <form id="contact-form" action="" method="post" onsubmit="send_message(event)">
-          <input name="name" type="text" placeholder="Name" id="name-field" required>
-          <input name="email" type="text" placeholder="Email" id="email-field" required>
-          <textarea name="message" placeholder="Your message" id="message-field"></textarea>
+        <form id="contact-form" action="#" method="post" onsubmit="send_message(event)">
+          <input name="name-field" type="text" placeholder="Name" id="name-field" required>
+          <input name="email-field" type="text" placeholder="Email" id="email-field" required>
+          <textarea name="message-field" placeholder="Your message" id="message-field"></textarea>
           <button class="submit" type="submit">SUBMIT</button>
         </form>
         <p class="form-messege"></p>
