@@ -159,7 +159,7 @@ global $media_url; ?>
         <div class="pricing-card pricing-card-first dynamic-price-element-1">
           <h5 class="pricing-card__title mb-4">Basic</h5>
           <h3 class="pricing-card__value">
-            <span class="pricing-currency" data-inr="₹" data-usd="$"></span>
+            <span class="pricing-currency" data-inr="₹" data-usd="$">$</span>
             <span class="pricing-cost" data-inr-mo="2250" data-usd-mo="29.99" data-inr-yr="22425" data-usd-yr="299">29.99</span>
             <span class="pricing-period" data-mo="/mo" data-yr="/yr">/mo</span>
           </h3>
@@ -385,7 +385,7 @@ global $media_url; ?>
         <div class="pricing-card pricing-card-first dynamic-price-element-2">
           <h5 class="pricing-card__title mb-4">Basic</h5>
           <h3 class="pricing-card__value">
-            <span class="pricing-currency" data-inr="₹" data-usd="$"></span>
+            <span class="pricing-currency" data-inr="₹" data-usd="$">$</span>
             <span class="pricing-cost" data-inr-mo="300" data-usd-mo="3.99" data-inr-yr="2990" data-usd-yr="39.99">3.99</span>
             <span class="pricing-period" data-mo="/mo" data-yr="/yr">/mo</span>
           </h3>
@@ -424,7 +424,7 @@ global $media_url; ?>
           </div>
           <h5 class="pricing-card__title mb-4">Pro</h5>
           <h3 class="pricing-card__value">
-            <span class="pricing-currency" data-inr="₹" data-usd="$"></span>
+          <span class="pricing-currency" data-inr="₹" data-usd="$">$</span>
             <span class="pricing-cost" data-inr-mo="675" data-usd-mo="8.99" data-inr-yr="6740" data-usd-yr="89.9">8.99</span>
             <span class="pricing-period" data-mo="/mo" data-yr="/yr">/mo</span>
           </h3>
@@ -460,7 +460,7 @@ global $media_url; ?>
         <div class="pricing-card dynamic-price-element-2">
           <h5 class="pricing-card__title mb-4">Ultra</h5>
           <h3 class="pricing-card__value">
-            <span class="pricing-currency" data-inr="₹" data-usd="$"></span>
+            <span class="pricing-currency" data-inr="₹" data-usd="$">$</span>
             <span class="pricing-cost" data-inr-mo="1125" data-usd-mo="14.99" data-inr-yr="11240" data-usd-yr="149.9">14.99</span>
             <span class="pricing-period" data-mo="/mo" data-yr="/yr">/mo</span>
           </h3>
