@@ -1,9 +1,7 @@
 import React from 'react';
-// import '../../../../styles/carousel.module.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Image from "next/image";
 import bannerimg from "../../../../assets/images/landingpage/server.svg";
 import { Row, Col, Container } from "reactstrap";
 
@@ -18,7 +16,7 @@ function carousel() {
     return (
         <div className="flex justify-center mt-10">
         <Slider {...settings} style={{width:'70%'}}>
-            <div>
+            <div className="pl-10">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
                         <h1 style={{fontWeight:'bold',fontsize:100}}>Lazarus VPN</h1>
@@ -45,7 +43,7 @@ function carousel() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="pl-10">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
                         <h1 style={{fontWeight:'bold',fontsize:100}}>Lazarus Drive</h1>
@@ -65,12 +63,12 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/drive-solid.png" alt="hero banner" style={{ width: 700 }} />
+                        <img src="https://lazarus.network/assets/images/Media/drive-solid.png" alt="hero banner" style={{ width: 350 }} />
                     </div>
                 </div>
             </div>
 
-            <div>
+            <div className="pl-10">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
                         <h1 style={{fontWeight:'bold',fontsize:100}}>Lazarus Stream</h1>
@@ -90,31 +88,31 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/stream-solid.png" alt="hero banner" style={{ width: 700 }} />
+                        <img src="https://lazarus.network/assets/images/Media/stream-solid.png" alt="hero banner" style={{ width: 550 }} />
                     </div>
                 </div>
             </div>
 
-            <div>
+            <div className="pl-10">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
                         <h1 style={{fontWeight:'bold',fontsize:100}}>Lazarus Tunnel</h1>
                         <p>Lazarus Tunnel Solution allows any system to open ports on the local machine bypassing the firewalls and NAT to the Internet.</p>
                         <a
                         href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
-                        className="btn btn-primary m-r-20 pt-2 pl-3 pr-3 pb-2 btn-sm m-t-0"
+                        className="btn btn-primary m-r-20 pt-2 pl-3 pr-3 pb-2 btn-sm m-t-30"
                         style={{fontSize:15}}
                         >
                         Read more
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/tunnel-solid.png" alt="hero banner" style={{ width: 700 }} />
+                        <img src="https://lazarus.network/assets/images/Media/tunnel-solid.png" alt="hero banner" style={{ width: 450 }} />
                     </div>
                 </div>
             </div>
 
-            <div>
+            <div className="pl-10">
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
                     <div>
                         <h1 style={{fontWeight:'bold',fontsize:100}}>Lazarus Firewall</h1>
@@ -136,7 +134,7 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/firewall-solid.png" alt="hero banner" style={{ width: 700 }} />
+                        <img src="https://lazarus.network/assets/images/Media/firewall-solid.png" alt="hero banner" style={{ width: 500 }} />
                     </div>
                 </div>
             </div>

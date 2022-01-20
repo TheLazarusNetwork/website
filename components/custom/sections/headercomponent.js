@@ -56,10 +56,10 @@ const HeaderComponent = () => {
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <NavLink href="#" style={{color:'white'}}>Pricing</NavLink>
+                  <NavLink href="/pricing" style={{color:'white'}}>Pricing</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#" style={{color:'white'}}>About Us</NavLink>
+                  <NavLink href="/about" style={{color:'white'}}>About Us</NavLink>
                 </NavItem>
                 <NavItem>
                   <a className="btn btn-outline-info" href="#" style={{color:'white'}}>
