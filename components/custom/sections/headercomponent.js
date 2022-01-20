@@ -37,10 +37,10 @@ const HeaderComponent = () => {
             </NavbarToggler>
             <Collapse isOpen={isOpen} navbar id="header1" >
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                <NavItem className="active">
-                  <NavLink href="#" style={{color:'white'}}>Home</NavLink>
+                <NavItem className="active pl-2">
+                  <NavLink href="/" style={{color:'white'}}>Home</NavLink>
                 </NavItem>
-                <UncontrolledDropdown nav inNavbar>
+                {/* <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav style={{color:'white'}}>
                     Services <i className="fa fa-angle-down m-l-5" style={{color:'white'}}></i>
                   </DropdownToggle>
@@ -54,20 +54,23 @@ const HeaderComponent = () => {
                     <DropdownItem divider />
                     <DropdownItem>One more separated link</DropdownItem>
                   </DropdownMenu>
-                </UncontrolledDropdown>
-                <NavItem>
+                </UncontrolledDropdown> */}
+                <NavItem className="pl-2">
+                  <NavLink href="/services" style={{color:'white'}}>Services</NavLink>
+                </NavItem>
+                <NavItem className="pl-2">
                   <NavLink href="/pricing" style={{color:'white'}}>Pricing</NavLink>
                 </NavItem>
-                <NavItem>
+                <NavItem className="pl-2">
                   <NavLink href="/about" style={{color:'white'}}>About Us</NavLink>
                 </NavItem>
-                <NavItem>
-                  <a className="btn btn-outline-info" href="#" style={{color:'white'}}>
+                <NavItem className="pr-1 pl-1">
+                  <a className="btn btn-danger pl-4 pr-4" href="https://app.lazarus.network/#/auth" style={{color:'white',paddingBottom:8,paddingTop:5}}>
                     Login
                   </a>
-                </NavItem>
-                <NavItem>
-                  <a className="btn btn-outline-info" href="#" style={{color:'white'}}>
+                </NavItem >
+                <NavItem className="pl-1">
+                  <a className="btn btn-danger pl-3 pr-3" href="https://app.lazarus.network/#/auth" style={{color:'white',paddingBottom:8,paddingTop:5}}>
                     Register
                   </a>
                 </NavItem>
