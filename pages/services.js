@@ -67,7 +67,7 @@ const services = () => {
       <div className="spacer feature4">
         <Container>
           <Row className="justify-content-center bg-gray-100">
-            <Col md="7" className="text-center pt-32 pb-32">
+            <Col md="7" className="text-center pt-10 pb-10">
               <h2 className="title">Do you want to be sure your IT infrastructure is completely secure?</h2>
               <h6 className="subtitle">
               Get detailed insight into the actual cybersecurity of your IT infrastructure and essential apps with Lazarus’s security testing as a service, along with a set of advice on how to make them as hacker-proof as possible.
@@ -87,9 +87,14 @@ const services = () => {
               Improve the performance of your data security solutions.
               </h6>
               <h6 className="subtitle">
+              Detects cyberattacks on your network in real time.
               </h6>
               <h6 className="subtitle">
               Maintain the security of your important data.
+              </h6>
+              <br/>
+              <h6 className="subtitle">
+              Don't jeopardize your security or productivity. Allow access when it is required and deny it when it is not.
               </h6>
             </Col>
           </Row>
