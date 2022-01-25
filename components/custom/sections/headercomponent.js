@@ -66,14 +66,14 @@ const HeaderComponent = () => {
                 </NavItem>
                 <NavItem className="pr-1 pl-1">
                   <a className="btn btn-danger pl-4 pr-4" href="https://app.lazarus.network/#/auth" style={{color:'white',paddingBottom:8,paddingTop:5}}>
-                    Login
+                    Dashboard
                   </a>
                 </NavItem >
-                <NavItem className="pl-1">
+                {/* <NavItem className="pl-1">
                   <a className="btn btn-danger pl-3 pr-3" href="https://app.lazarus.network/#/auth" style={{color:'white',paddingBottom:8,paddingTop:5}}>
                     Register
                   </a>
-                </NavItem>
+                </NavItem> */}
               </Nav>
             </Collapse>
           </Navbar>

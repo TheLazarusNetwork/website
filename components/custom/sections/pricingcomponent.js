@@ -86,18 +86,35 @@ const PricingComponent = () => {
           </Row>
         </Container>
       </div> */}
+
             <div class="min-h-screen items-center mt-10">
                 <div class="">
                     <div class="text-center font-semibold">
                         <h1 class="text-5xl">
-                            <span class="text-indigo-500 tracking-wide">Dedicated</span>
-                            <span>VPN</span>
+                            <span class="text-indigo-500 tracking-wide">SOTREUS</span>
+                            {/* <span>VPN</span> */}
                         </h1>
                         <p class="pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full">
-                            Choose a plan that works best for you and<br /> your team.
+                            Lazarus Dedicated Network is an encrypted tunneling solution for end users offering WireGuard® Tunneling, secured by Ed25519 Private Key Encryption, Multi Region Network, Peer to Peer network access and a lot more.
                         </p>
+                        <div class="flex flex-row justify-center items-center mt-5">
+                            <div class="flex justify-center">
+                                <div class="form-check form-switch">
+                                    <span className="pr-4">USD</span>
+                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4">INR</span>
+                                </div>
+                            </div>
+                            <div class="flex justify-center">
+                                <div class="form-check form-switch">
+                                    <span className="pr-4">Monthly</span>
+                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4">Yearly</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="my-16 sm:flex flex-wrap justify-center items-center gap-8">
+                    <div class="my-8 sm:flex flex-wrap justify-center items-center gap-8">
                         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6 shadow-lg rounded-lg">
                             <div class="px-6 py-2 sm:p-10 sm:pb-6">
                                 <div class="flex justify-center">
@@ -349,7 +366,7 @@ const PricingComponent = () => {
                             <Col md="7" className="text-center">
                                 <h1 className="title font-bold">Corporate Custom Plan</h1>
                                 <h6 className="subtitle">
-                                    Here you can check Demos we created based on WrapKit. Its quite easy to Create your own dream website & dashboard in No-time.
+                                    Contact us for corporate custom plans. Our experts will be in touch with you to offer customized Dedicated Virtual Private Network with limitless resource as per your need. Bandwidth up to 1 Gbps, unlimited VPN clients and more.
                                 </h6>
                                 <a
                                     href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
@@ -367,9 +384,28 @@ const PricingComponent = () => {
             <section>
                 <div class="container max-w-full mx-auto py-8 px-6">
                     <h1 class="text-5xl text-center">
-                        <span class="text-blue-700 tracking-wide">Anonymous </span>
-                        <span>VPN</span>
+                        <span class="text-blue-700 tracking-wide">EREBRUS  </span>
+                        {/* <span>VPN</span> */}
                     </h1>
+                    <p class="pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full text-center">
+                        Anonymous VPN uses WireGuard® P2P VPN Solution for bypassing IP Fingerprinting to provide secure & private access to geo-restricted content. Users get to choose the VPN Connection from various countries and change IP addresses upon their requirements.
+                    </p>
+                    <div class="flex flex-row justify-center items-center mt-5">
+                            <div class="flex justify-center">
+                                <div class="form-check form-switch">
+                                    <span className="pr-4">USD</span>
+                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4">INR</span>
+                                </div>
+                            </div>
+                            <div class="flex justify-center">
+                                <div class="form-check form-switch">
+                                    <span className="pr-4">Monthly</span>
+                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4">Yearly</span>
+                                </div>
+                            </div>
+                        </div>
 
                     <div class="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
                         <div
