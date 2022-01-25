@@ -39,8 +39,8 @@ export default function App() {
                         <br /><br />
                         Lazarus is a decentralized blockchain network, with the goal of creating a truly private, secure, and fair Internet.
                         <br /><br />
-
-                        {/* <br /><br /> */}
+                        Lazarus offers 24x7 assistance to help maintain your deployment working well. We also provide services to ensure you're protected so you are safe even in an extreme situation.
+                        <br /><br />
                         We are dedicated to providing private and secure internet access anywhere in the globe, even in the most remote areas. Our dedicated VPN creates a secure tunnel and encrypts your internet browsing and protects your data from malware.
                         <br /><br />
                         Resonance of blockchain and VPN.

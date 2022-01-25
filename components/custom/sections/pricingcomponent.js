@@ -1,8 +1,19 @@
 /* eslint-disable */
 import React from "react";
+import {useState} from 'react';
 import { Row, Col, Container } from "reactstrap";
 
 const PricingComponent = () => {
+  const [showMe, setshowMe] = useState(false);
+  const [show, setshow] = useState(false);
+
+  function toggle(){
+    setshowMe(!showMe);
+  }
+  function togg(){
+    setshow(!show);
+  }
+
     return (
         <div>
             {/* <div className="spacer bg-light">
@@ -100,16 +111,16 @@ const PricingComponent = () => {
                         <div class="flex flex-row justify-center items-center mt-5">
                             <div class="flex justify-center">
                                 <div class="form-check form-switch">
-                                    <span className="pr-4">USD</span>
-                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                    <span className=" pl-4">INR</span>
+                                    <span className="pr-4" style={{color: showMe?'gray':'black'}}>USD</span>
+                                    <input onChange={toggle} class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4" style={{color: showMe?'black':'gray'}}>INR</span>
                                 </div>
                             </div>
                             <div class="flex justify-center">
                                 <div class="form-check form-switch">
-                                    <span className="pr-4">Monthly</span>
-                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                    <span className=" pl-4">Yearly</span>
+                                    <span className="pr-4" style={{color: show?'gray':'black'}}>Monthly</span>
+                                    <input onChange={togg} class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4" style={{color: show?'black':'gray'}}>Yearly</span>
                                 </div>
                             </div>
                         </div>
