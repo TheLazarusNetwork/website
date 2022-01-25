@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import { Row, Col, Container} from "reactstrap";
+import { Row, Col, Container } from "reactstrap";
 
 const PricingComponent = () => {
     return (
@@ -429,8 +429,8 @@ const PricingComponent = () => {
                                     <div class="block flex items-center p-8  uppercase">
                                         <button
                                             class="mt-3 text-lg font-semibold 
-	bg-blue-600 w-full text-white rounded-lg 
-	px-6 py-3 block shadow-xl hover:bg-gray-700"
+                                            bg-blue-600 w-full text-white rounded-lg 
+                                            px-6 py-3 block shadow-xl hover:bg-gray-700"
                                         >
                                             Get Started
                                         </button>
