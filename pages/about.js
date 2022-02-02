@@ -15,26 +15,26 @@ export default function App() {
                                 We help them by securing the network layer within their home/office so that all applications
                                 can only access authorized services and malicious services are blocked.
                             </h6>
-                            <div class="relative" style={{ paddingTop: '56.25%' }}>
-                                <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube-nocookie.com/embed/QwGWq9Jvp0U" frameborder="0"></iframe>
+                            <div className="relative" style={{ paddingTop: '56.25%' }}>
+                                <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube-nocookie.com/embed/QwGWq9Jvp0U" frameBorder="0"></iframe>
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </div>
-            <section class="relative py-1 bg-blueGray-200">
-          <div class="container mx-auto px-0">
-            <div class="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-900 w-full mb-0 shadow-xl rounded-lg -mt-64">
-              <div class="px-6">
-                <div class="text-center mt-16">
-                  <h3 class="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
+            <section className="relative py-1 bg-blueGray-200">
+          <div className="container mx-auto px-0">
+            <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-900 w-full mb-0 shadow-xl rounded-lg -mt-64">
+              <div className="px-6">
+                <div className="text-center mt-16">
+                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     Our Mission:
                   </h3>
                 </div>
-                <div class="mt-10 py-10 border-t border-blueGray-200">
-                  <div class="flex flex-wrap justify-center">
-                    <div class="w-full lg:w-9/12 px-4">
-                      <p class="mb-4 text-lg leading-relaxed text-blueGray-700">
+                <div className="mt-10 py-10 border-t border-blueGray-200">
+                  <div className="flex flex-wrap justify-center">
+                    <div className="w-full lg:w-9/12 px-4">
+                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                       Our mission is to provide effective security and smooth operations.  We provide solutions to SMEs and individuals with the best-in-class security services, professional services, and support. We provide full-service information cyber security consulting services for Premium Membership to clients. 
                         <br /><br />
                         Lazarus is a decentralized blockchain network, with the goal of creating a truly private, secure, and fair Internet.

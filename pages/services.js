@@ -16,13 +16,13 @@ const services = () => {
         </div>
       </div>
 
-      <div class="row row-cols-1 row-cols-md-2 g-4 md:pl-20 md:pr-20 pl-4 pr-4 pt-20">
-        <div class="col">
-          <div class="card rounded-xl overflow-hidden transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+      <div className="row row-cols-1 row-cols-md-2 g-4 md:pl-20 md:pr-20 pl-4 pr-4 pt-20">
+        <div className="col">
+          <div className="card rounded-xl overflow-hidden transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div className="px-8 py-10 flex justify-between items-center">
               <h4 className="text-xl font-bold text-gray-800">ANONYMOUS VPN</h4>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
             <p className="px-4 text-center text-sm ">Anonymous VPN uses P2P VPN Solution for bypassing IP Fingerprinting. Get 100% anonymous internet browsing around the world including restricted regions.
@@ -40,8 +40,8 @@ const services = () => {
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card rounded-xl overflow-hidden transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+        <div className="col">
+          <div className="card rounded-xl overflow-hidden transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div className="px-8 py-9 flex justify-between items-center">
               <h4 className="text-xl font-bold text-gray-800">DEDICATED VPN</h4>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">

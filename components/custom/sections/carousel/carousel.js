@@ -24,10 +24,10 @@ function carousel() {
                             secured by Ed25519 Private Key Encryption, Multi Region Network, Peer to Peer network access and a lot more.</p>
                             <Row style={{paddingTop:15}}>
                             <Col lg="6" md="6" className="m-b-30">
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Secure online browsing</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> IP Address Protection</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Restricted Content</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Multiple Devices</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Secure online browsing</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> IP Address Protection</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Restricted Content</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Multiple Devices</h6>
                             </Col>
                         </Row>
                         <a
@@ -50,8 +50,8 @@ function carousel() {
                         <p>Lazarus Drive is a private file storage service on the cloud and the connected devices based on the IPFS.</p>
                             <Row style={{paddingTop:15}}>
                             <Col lg="6" md="6" className="m-b-30">
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Decentralized Cloud Storage</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Backups</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Decentralized Cloud Storage</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Backups</h6>
                             </Col>
                         </Row>
                         <a
@@ -75,8 +75,8 @@ function carousel() {
                         <p>Lazarus Stream leverages IPFS Network for the content delivery and relay of streams for hosting the video calls within the private network created with Lazarus VPN.</p>
                             <Row style={{paddingTop:15}}>
                             <Col lg="6" md="6" className="m-b-30">
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Change the way you communicate</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Audio and Video Calls</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Change the way you communicate</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Audio and Video Calls</h6>
                             </Col>
                         </Row>
                         <a
@@ -119,10 +119,10 @@ function carousel() {
                         <p>Lazarus Firewall is incorporated on the network layer (DNS Layer) for detecting and eliminating cyber threats which try to attack the application system.</p>
                             <Row style={{paddingTop:15}}>
                             <Col lg="6" md="6" className="m-b-30">
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Network-wide protection</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Block in-app advertisements</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Improve network performance</h6>
-                                <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Monitor statistics</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Network-wide protection</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Block in-app advertisements</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Improve network performance</h6>
+                                <h6 style={{paddingBottom:10}}><i className="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Monitor statistics</h6>
                             </Col>
                         </Row>
                         <a
