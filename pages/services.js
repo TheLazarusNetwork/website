@@ -45,7 +45,7 @@ const services = () => {
             <div className="px-8 py-9 flex justify-between items-center">
               <h4 className="text-xl font-bold text-gray-800">DEDICATED VPN</h4>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
             <p className="px-4 text-center text-sm ">Lazarus VPN is an encrypted tunneling solution for end users offering WireGuard® Tunneling, secured by Ed25519 Private Key Encryption, Multi Region Network, Peer to Peer network access along with network layer customizable firewall. Get higher bandwidth and optimized performance for enterprise software usages requiring good latency.
@@ -94,7 +94,7 @@ const services = () => {
               </h6>
               <br/>
               <h6 className="subtitle">
-              Don't jeopardize your security or productivity. Allow access when it is required and deny it when it is not.
+              Dont jeopardize your security or productivity. Allow access when it is required and deny it when it is not.
               </h6>
             </Col>
           </Row>
