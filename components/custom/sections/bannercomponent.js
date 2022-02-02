@@ -38,7 +38,7 @@ const BannerComponent = () => {
             </a>
             </Col>
             <Col md="6">
-            <Image src={bannerimg} alt="hero banner" />
+            {/* <Image src={bannerimg} alt="hero banner" /> */}
             </Col>
           </Row>
         </Container>
