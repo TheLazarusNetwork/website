@@ -6,6 +6,8 @@ import { Row, Col, Container } from "reactstrap";
 const PricingComponent = () => {
   const [showMe, setshowMe] = useState(false);
   const [show, setshow] = useState(false);
+  const [showMe2, setshowMe2] = useState(false);
+  const [show2, setshow2] = useState(false);
 
   function toggle(){
     setshowMe(!showMe);
@@ -13,90 +15,15 @@ const PricingComponent = () => {
   function togg(){
     setshow(!show);
   }
+  function toggle2(){
+    setshowMe2(!showMe2);
+  }
+  function togg2(){
+    setshow2(!show2);
+  }
 
     return (
         <div>
-            {/* <div className="spacer bg-light">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h1 className="title font-bold">Pricing</h1>
-              <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      <div className="pricing8 spacer b-t">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h2 className="title">
-                Simple Pricing to make your Work Effective
-              </h2>
-              <h6 className="subtitle">
-                We offer 100% satisafaction and Money back Guarantee
-              </h6>
-            </Col>
-          </Row>
-          <Row className="m-t-40">
-            <Col md="4" className="ml-auto pricing-box align-self-center">
-              <Card className="b-all">
-                <CardBody className="p-30 text-center">
-                  <h5>Regular Plan</h5>
-                  <sup>$</sup>
-                  <span className="text-dark display-5">39</span>
-                  <h6 className="font-light font-14">YEARLY</h6>
-                  <p className="m-t-40">
-                    The Master license allows you to customize, store and even
-                    host your website using your platform
-                  </p>
-                </CardBody>
-                <a className="btn btn-info p-15 btn-arrow btn-block" href="#">
-                  Get Started{" "}
-                </a>
-              </Card>
-            </Col>
-            <Col md="4" className="ml-auto pricing-box align-self-center">
-              <Card className="b-all">
-                <CardBody className="p-30 text-center">
-                  <h5>Master Plan</h5>
-                  <sup>$</sup>
-                  <span className="text-dark display-5">49</span>
-                  <h6 className="font-light font-14">YEARLY</h6>
-                  <p className="m-t-40">
-                    The Master license allows you to customize, store and even
-                    host your website using your platform
-                  </p>
-                </CardBody>
-                <a className="btn btn-danger p-15 btn-arrow btn-block" href="#">
-                  Get Started{" "}
-                </a>
-              </Card>
-            </Col>
-            <Col md="4" className="ml-auto pricing-box align-self-center">
-              <Card className="b-all">
-                <CardBody className="p-30 text-center">
-                  <h5>Premium Plan</h5>
-                  <sup>$</sup>
-                  <span className="text-dark display-5">69</span>
-                  <h6 className="font-light font-14">YEARLY</h6>
-                  <p className="m-t-40">
-                    The Master license allows you to customize, store and even
-                    host your website using your platform
-                  </p>
-                </CardBody>
-                <a className="btn btn-info p-15 btn-arrow btn-block" href="#">
-                  Get Started{" "}
-                </a>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
 
             <div class="min-h-screen items-center mt-10">
                 <div class="">
@@ -134,9 +61,9 @@ const PricingComponent = () => {
                                     </span>
                                 </div>
                                 <div class="mt-4 flex justify-center text-6xl leading-none font-extrabold">
-                                    $29.99
+                                    {showMe && show? "₹22425": showMe && !show? "₹2250": !showMe && show? "$299":"$29.99"}
                                     <span class="ml-1 pt-8 text-2xl leading-8 font-medium text-gray-500">
-                                        /month
+                                    {show? "/yr":"/month"}   
                                     </span>
                                 </div>
                             </div>
@@ -216,9 +143,9 @@ const PricingComponent = () => {
                                     </span>
                                 </div>
                                 <div class="mt-4 flex justify-center text-6xl leading-none font-extrabold">
-                                    $69.99
+                                {showMe && show? "₹52425 ": showMe && !show? "₹5250": !showMe && show? "$699":"$69.99"}
                                     <span class="ml-1 pt-8 text-2xl leading-8 font-medium text-gray-100">
-                                        /month
+                                    {show? "/yr":"/month"}  
                                     </span>
                                 </div>
                             </div>
@@ -297,9 +224,9 @@ const PricingComponent = () => {
                                     </span>
                                 </div>
                                 <div class="mt-4 flex justify-center text-6xl leading-none font-extrabold">
-                                    $129.99
+                                {showMe && show? "₹97425": showMe && !show? "₹9750 ": !showMe && show? "$1299":"$129.99"}
                                     <span class="ml-1 pt-8 text-2xl leading-8 font-medium text-gray-500">
-                                        /month
+                                    {show? "/yr":"/month"}  
                                     </span>
                                 </div>
                             </div>
@@ -404,16 +331,16 @@ const PricingComponent = () => {
                     <div class="flex flex-row justify-center items-center mt-5">
                             <div class="flex justify-center">
                                 <div class="form-check form-switch">
-                                    <span className="pr-4">USD</span>
-                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                    <span className=" pl-4">INR</span>
+                                    <span className="pr-4" style={{color: showMe2?'gray':'black'}}>USD</span>
+                                    <input onChange={toggle2} class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4" style={{color: showMe2?'black':'gray'}}>INR</span>
                                 </div>
                             </div>
                             <div class="flex justify-center">
                                 <div class="form-check form-switch">
-                                    <span className="pr-4">Monthly</span>
-                                    <input class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                                    <span className=" pl-4">Yearly</span>
+                                    <span className="pr-4" style={{color: show2?'gray':'black'}}>Monthly</span>
+                                    <input onChange={togg2} class="form-check-input appearance-none w-9 rounded-full float-left h-5 align-top bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                    <span className=" pl-4" style={{color: show2?'black':'gray'}}>Yearly</span>
                                 </div>
                             </div>
                         </div>
@@ -433,9 +360,8 @@ const PricingComponent = () => {
                                     >
                                         <h1 class="text-black font-semibold text-2xl">Basic</h1>
                                         <p class="pt-2 tracking-wide">
-                                            <span class="text-gray-400 align-top">$ </span>
-                                            <span class="text-3xl font-semibold">3.99</span>
-                                            <span class="text-gray-400 font-medium">/ mo</span>
+                                            <span class="text-3xl font-semibold">{showMe2 && show2? "₹2990": showMe2 && !show2? "₹300": !showMe2 && show2? "$39.99":"$3.99"}</span>
+                                            <span class="text-gray-400 font-medium">{show2? "/yr":"/month"} </span>
                                         </p>
                                         <hr class="mt-4 border-1" />
                                         <div class="pt-8 pl-10">
@@ -497,9 +423,8 @@ const PricingComponent = () => {
                                 >
                                     <h1 class="font-semibold text-2xl text-center">Pro</h1>
                                     <p class="pt-2 tracking-wide text-center">
-                                        <span class="text-gray-400 align-top">$ </span>
-                                        <span class="text-3xl font-semibold">8.99</span>
-                                        <span class="text-gray-400 font-medium">/ mo</span>
+                                        <span class="text-3xl font-semibold">{showMe2 && show2? "₹6740": showMe2 && !show2? "₹675": !showMe2 && show2? "$89.99":"$8.99"}</span>
+                                        <span class="text-gray-400 font-medium">{show2? "/yr":"/month"}</span>
                                     </p>
                                     <hr class="mt-4 border-1" />
                                     <div class="pt-8 pl-10">
@@ -558,9 +483,8 @@ const PricingComponent = () => {
                                     >
                                         <h1 class="text-black font-semibold text-2xl">Ultra</h1>
                                         <p class="pt-2 tracking-wide">
-                                            <span class="text-gray-400 align-top">$ </span>
-                                            <span class="text-3xl font-semibold">14.99</span>
-                                            <span class="text-gray-400 font-medium">/ mo</span>
+                                            <span class="text-3xl font-semibold">{showMe2 && show2? "₹11240": showMe2 && !show2? "₹1125": !showMe2 && show2? "$149.99":"$14.99"}</span>
+                                            <span class="text-gray-400 font-medium">{show2? "/yr":"/month"}</span>
                                         </p>
                                         <hr class="mt-4 border-1" />
                                         <div class="pt-8 pl-10">
