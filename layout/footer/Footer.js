@@ -1,26 +1,20 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
-import {FaDiscord} from 'react-icons/fa';
+import { FaDiscord } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <div className="footer4 spacer pb-4 pt-4 bg-gray-200">
       <Container>
-        <Row>
+        <Row style={{paddingLeft:80, paddingRight:80}}>
           <Col lg="3" md="6" className="m-b-0">
-             <img src="https://lazarus.network/assets/images/logo.png" alt="wrapkit" style={{width:200,paddingBottom:10}}/>
-          <h5 className="m-t-10 mb-2 font-bold">About Lazarus Network</h5>
+            <img src="https://lazarus.network/assets/images/logo.png" alt="wrapkit" style={{ width: 200, paddingBottom: 10 }} />
+            <h5 className="m-t-10 mb-2 font-bold">About Lazarus Network</h5>
             <h6>
- Safe Internet & CyberSecurity For All - Providing Cyber Defense solution to Individuals & Enterprise.</h6>
+              Safe Internet & CyberSecurity For All - Providing Cyber Defense solution to Individuals & Enterprise.</h6>
           </Col>
-          <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Phone</h5>
-            <p>
-              Reception : +205 123 4567 <br />
-              Office : +91 895 1415 895
-            </p>
-          </Col>
+          
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
             <p>
@@ -34,11 +28,23 @@ const Footer = () => {
                 <a className="link">lazarus.network</a>
               </Link>
             </p>
+            <h5 className="m-t-20 m-b-10">Phone</h5>
+            <p>
+              Office : +91 895 1415 895
+            </p>
+          </Col>
+          <Col lg="3" md="6" className="m-b-30">
+            <h5 className="m-b-20">Useful Links</h5>
+            <p className="cursor-pointer">About</p>
+            <p className="cursor-pointer">Contact</p>
+            <p>Services</p>
+            <p>Pricing</p>
+            <p>Dashboard</p>
           </Col>
           <Col lg="3" md="6">
-          <h5 className="m-b-20">Address</h5>
+            <h5 className="m-b-20">Address</h5>
             <p>Sector 8, Dwarka, New Delhi, India 110077</p>
-            <br/>
+            <br />
             <h5 className="m-b-20">Social</h5>
             <div className="round-social light">
               <Link href="https://www.facebook.com/Lazarus.Network">
@@ -53,7 +59,7 @@ const Footer = () => {
               </Link>
               <Link href="https://discord.com/invite/S6g4ctv">
                 <a className="link">
-                <i className="fa fa-discord"><FaDiscord /></i>
+                  <i className="fa fa-discord"><FaDiscord /></i>
                 </a>
               </Link>
               <Link href="https://github.com/TheLazarusNetwork">
@@ -79,17 +85,17 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        <div className="f4-bottom-bar">
+        <div className="f4-bottom-bar text-center">
           <Row>
             <Col md="12">
-              <div className="d-flex font-14">
+              <div className="font-14 b-t">
                 <div className="m-t-10 m-b-10 copyright">
                   {/* All Rights Reserved by{" "} */}
                   <Link href="https://www.wrappixel.com">
                     <a className="link">© Copyright 2020 Lazarus Network</a>
                   </Link>
                 </div>
-                <div className="links ml-auto m-t-10 m-b-10 pr-4">
+                {/* <div className="links ml-auto m-t-10 m-b-10 pr-4">
                   <Link href="#">
                     <a className="p-10 p-l-0">Terms of Use</a>
                   </Link>
@@ -99,7 +105,7 @@ const Footer = () => {
                   <Link href="#">
                     <a className="p-10">Privacy Policy</a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

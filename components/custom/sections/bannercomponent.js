@@ -32,7 +32,7 @@ const BannerComponent = () => {
           </Row>
           <a
               href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
-              className="btn btn-danger m-r-20 btn-md m-t-0"
+              className="btn bg-gray-700 m-r-20 btn-md m-t-0"
             >
               Join Us
             </a>

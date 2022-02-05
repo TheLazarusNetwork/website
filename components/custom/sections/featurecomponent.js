@@ -100,39 +100,39 @@ const FeatureComponent = () => {
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <div className="flex flex-wrap">
-                <div className="w-full lg:w-6/12 px-4">
+                <div className="w-full lg:w-6/12 lg:px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     For Personal Security
                   </h5>
                   <Link href="/auth/login">
                     <div className="hover:-mt-4 relative flex flex-col justify-center items-center min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url("https://www.indusface.com/wp-content/uploads/2019/07/Things-To-Consider-When-Choosing-A-SaaS-Security-Provider-1200x720.png")` }}>
-                      <div class="pt-8 pl-10">
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;No Traffic / Request Logs
+                      <div class="pt-8">
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;No Traffic / Request Logs
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Unmetered Data Transfer
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Unmetered Data Transfer
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Anonymous VPN
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Anonymous VPN
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Block ADs, Trackers and Malware
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Block ADs, Trackers and Malware
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Firewall Enabled
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Firewall Enabled
                         </li>
                         <div class="block flex items-center p-8  uppercase">
                           <button
                             class="mt-3 text-lg font-semibold 
-                                            bg-blue-600 w-full text-white rounded-lg 
+                                            bg-gray-800 w-full text-white rounded-lg 
                                             px-6 py-3 block shadow-xl hover:bg-gray-700"
-                            style={{ backgroundColor: '#24A0ED' }}
+                            // style={{ backgroundColor: '#24A0ED' }}
                           >
                             Get Started
                           </button>
@@ -142,39 +142,39 @@ const FeatureComponent = () => {
                   </Link>
                 </div>
 
-                <div className="w-full lg:w-6/12 px-4">
+                <div className="w-full lg:w-6/12 lg:px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     For Enterprise Security
                   </h5>
                   <Link href="/profile">
                     <div className="hover:-mt-4 relative flex flex-col justify-center items-center min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6aGpeL5n3carq57Df8-0zAimrWFDV2ulbHKfzoot1w03XDTrQ7UI-Hn3xZQofRL4ASiY&usqp=CAU")` }}>
-                      <div class="pt-8 pl-10">
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Multiple Solutions for Enterprises
+                      <div class="pt-8">
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Multiple Solutions for Enterprises
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Dedicated IP Addresses
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Dedicated IP Addresses
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Blockchain Services
+                        <li class="mb-3 flex items-center text-black ">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Blockchain Services
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Server & Application Security
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Server & Application Security
                         </li>
-                        <li class="mb-3 flex items-center ">
-                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
-                          &nbsp;Priority Support
+                        <li class="mb-3 flex items-center text-black">
+                          <i className="fa fa-check-circle-o" style={{ color: 'green' }}></i>
+                          &nbsp;&nbsp;&nbsp;Priority Support
                         </li>
                         <div class="block flex items-center p-8  uppercase">
                           <button
                             class="mt-3 text-lg font-semibold 
-                                            bg-blue-600 w-full text-white rounded-lg 
+                                            bg-gray-800 w-full text-white rounded-lg 
                                             px-6 py-3 block shadow-xl hover:bg-gray-700"
-                            style={{ backgroundColor: '#24A0ED' }}
+                            // style={{ backgroundColor: '#24A0ED' }}
                           >
                             Get Started
                           </button>
@@ -193,7 +193,7 @@ const FeatureComponent = () => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h1 className="title font-bold text-5xl">What it does?</h1>
+                            <h1 className="title font-bold text-5xl text-white">What it does?</h1>
                             <h6 className="subtitle pb-10">
                                 Lazarus Network leverages AI and Blockchain Technologies For Cyber Defense to protect
                                 individuals and companies from cyber-attacks like ransomware, email spoofing, phishing etc.
@@ -230,7 +230,7 @@ const FeatureComponent = () => {
         </div>
 
         <div className="container mx-auto">
-          <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
+          <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10 lg:mx-40">
             <div className="w-full text-center lg:w-8/12">
               <h3 className="font-semibold text-3xl">
               Let's keep in touch!
