@@ -23,10 +23,127 @@ const CustomComponents = () => {
       {/* <Banner2 /> */}
 
       <BannerComponent />
-      <Carousel />
+      {/* <Carousel /> */}
+
+      <div className="container mx-auto">
+          <div className="flex flex-wrap items-center">
+            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
+              <div className="justify-center flex flex-wrap relative">
+                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
+                  <img
+                    alt="..."
+                    className="shadow-lg rounded-lg"
+                    src="https://lazarus.network/assets/images/Media/vpn-solid.png"
+                  />
+                  <img
+                    alt="..."
+                    className="shadow-md rounded-lg my-4"
+                    src="https://lazarus.network/assets/images/Media/drive-solid.png"
+                  />
+                </div>
+                <div className="my-4 w-full lg:w-6/12 px-4">
+                  <img
+                    alt="..."
+                    className="shadow-md rounded-lg"
+                    src="https://lazarus.network/assets/images/Media/stream-solid.png"
+                  />
+                  <img
+                    alt="..."
+                    className="shadow-md rounded-lg my-4"
+                    src="https://lazarus.network/assets/images/Media/tunnel-solid.png"
+                  />
+                  <img
+                    alt="..."
+                    className="shadow-md rounded-lg"
+                    src="https://lazarus.network/assets/images/Media/firewall-solid.png"
+                  />
+
+
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-6/12 px-4">
+              <div className="flex flex-wrap">
+                <div className="w-full md:w-6/12 px-4">
+                  <div className="relative flex flex-col mt-4">
+                    <div className="px-4 py-5 flex-auto">
+                      <h6 className="text-xl mb-1 font-semibold" style={{ color: 'green' }}>
+                        Lazarus VPN
+                      </h6>
+                      <p className="mb-4 text-blueGray-500">
+                        Lazarus VPN is an encrypted tunneling solution for end users offering WireGuard® Tunneling, secured by Ed25519 Private Key Encryption, Multi Region Network, Peer to Peer network access and a lot more.
+                      </p>
+                      <div lg="6" md="6" className="m-b-30">
+                        <h6><i className="fas fa-check-circle"></i> Secure online browsing</h6>
+                        <h6><i className="fas fa-check-circle"></i> IP Address Protection</h6>
+                        <h6><i className="fas fa-check-circle"></i> Restricted Content</h6>
+                        <h6><i className="fas fa-check-circle"></i> Multiple Devices</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <h6 className="text-xl mb-1 font-semibold" style={{ color: 'blue' }}>
+                        Lazarus Drive
+                      </h6>
+                      <p className="mb-4 text-blueGray-500">
+                        Lazarus Drive is a private file storage service on the cloud and the connected devices based on the IPFS
+                      </p>
+                      <div lg="6" md="6" className="m-b-30">
+                        <h6><i className="fas fa-check-circle"></i> Decentralized Cloud Storage</h6>
+                        <h6><i className="fas fa-check-circle"></i> Backups</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="w-full md:w-6/12 px-4">
+                  <div className="relative flex flex-col min-w-0 mt-4">
+                    <div className="px-1 py-1 flex-auto">
+                      <h6 className="text-xl mb-1 font-semibold" style={{ color: 'purple' }}>Lazarus Stream</h6>
+                      <p className="mb-4 text-blueGray-500">
+                        Lazarus Stream leverages IPFS Network for the content delivery and relay of streams for hosting the video calls within the private network created with Lazarus VPN.
+                      </p>
+                      <div lg="6" md="6" className="m-b-30">
+                        <h6><i className="fas fa-check-circle"></i> Change the way you communicate</h6>
+                        <h6><i className="fas fa-check-circle"></i> Audio and Video Calls</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0 mt-4">
+                    <div className="py-1 flex-auto">
+                      <h6 className="text-xl mb-1 font-semibold" style={{ color: 'orange' }}>
+                        Lazarus Tunnel
+                      </h6>
+                      <p className="mb-4 text-blueGray-500">
+                        Lazarus Tunnel Solution allows any system to open ports on the local machine bypassing the firewalls and NAT to the Internet.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-1 py-1 flex-auto">
+                      <h6 className="text-xl mb-1 font-semibold" style={{ color: 'red' }}>
+                        Lazarus Firewall
+                      </h6>
+                      <p className="mb-4 text-blueGray-500">
+                        Lazarus Firewall is incorporated on the network layer (DNS Layer) for detecting and eliminating cyber threats which try to attack the application system.
+                      </p>
+                      <div lg="6" md="6" className="m-b-30">
+                        <h6><i className="fas fa-check-circle"></i> Network-wide protection</h6>
+                        <h6><i className="fas fa-check-circle"></i> Block in-app advertisements</h6>
+                        <h6><i className="fas fa-check-circle"></i> Improve network performance</h6>
+                        <h6><i className="fas fa-check-circle"></i> Monitor statistics</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       
       <FeatureComponent />
-      <FormBannerComponent />
+      {/* <FormBannerComponent /> */}
       {/* <PortfolioComponent /> */}
       {/* <PricingComponent /> */}
       {/* <TeamComponent /> */}

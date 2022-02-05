@@ -64,8 +64,11 @@ const HeaderComponent = () => {
                 <NavItem className="pl-2">
                   <NavLink href="/about" style={{color:'white'}}>About Us</NavLink>
                 </NavItem>
-                <NavItem className="pr-1 pl-1">
-                  <a className="btn btn-danger pl-4 pr-4" href="https://app.lazarus.network/#/auth" style={{color:'white',paddingBottom:8,paddingTop:5}}>
+                <NavItem className="pl-2">
+                  <NavLink href="/contact" style={{color:'white'}}>Contact</NavLink>
+                </NavItem>
+                <NavItem className="pr-1 pl-2 pt-1">
+                  <a className="btn btn-danger pl-2 pr-2 uppercase font-bold text-sm" href="https://app.lazarus.network/#/auth" style={{color:'white',paddingBottom:8,paddingTop:8}}>
                     Dashboard
                   </a>
                 </NavItem >

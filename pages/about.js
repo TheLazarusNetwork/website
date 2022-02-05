@@ -5,22 +5,7 @@ export default function App() {
     return (
         <div>
             <div className="spacer bg-light pb-80">
-                <Container>
-                    <Row className="justify-content-center">
-                        <Col md="7" className="text-center">
-                            <h1 className="title font-bold text-5xl">What it does?</h1>
-                            <h6 className="subtitle pb-10">
-                                Lazarus Network leverages AI and Blockchain Technologies For Cyber Defense to protect
-                                individuals and companies from cyber-attacks like ransomware, email spoofing, phishing etc.
-                                We help them by securing the network layer within their home/office so that all applications
-                                can only access authorized services and malicious services are blocked.
-                            </h6>
-                            <div className="relative" style={{ paddingTop: '56.25%' }}>
-                                <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube-nocookie.com/embed/QwGWq9Jvp0U" frameBorder="0"></iframe>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
+                
             </div>
             <section className="relative py-1 bg-blueGray-200">
           <div className="container mx-auto px-0">

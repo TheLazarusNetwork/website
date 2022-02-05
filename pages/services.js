@@ -5,7 +5,7 @@ import img5 from "../assets/images/features/feature30/feature-img.jpg";
 const services = () => {
   return (
     <div>
-      <div className="bg-gray-100 pt-10">
+      <div className=" pt-10">
         <div className="mt-10 text-center">
           <h1 className="text-4xl font-bold text-gray-800">Lazarus Network Services</h1>
           <p className="text-lg mt-3 font-semibold">Enterprise Grade Cybersecurity Solutions for Individuals and Businesses. At Lazarus we leverage AI And Blockchain technologies For cyber defense to protect you and your enterprise from online viruses while you Work From Home.</p>

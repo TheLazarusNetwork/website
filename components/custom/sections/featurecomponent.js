@@ -7,6 +7,9 @@ import img2 from "../../../assets/images/features/feature13/img2.jpg";
 import img3 from "../../../assets/images/features/feature13/img3.jpg";
 import img4 from "../../../assets/images/features/feature13/img4.jpg";
 import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
+import Link from 'next/link';
+;
+
 
 const FeatureComponent = () => {
   return (
@@ -67,9 +70,9 @@ const FeatureComponent = () => {
       <div className="antialiased max-w-6xl mx-auto my-12 bg-gray-300 px-8">
     
   
-    <div className="relative block md:flex items-center">
+    {/* <div className="relative block md:flex items-center">
       <div className="w-full md:w-1/2 relative z-1 bg-gray-100 rounded shadow-lg overflow-hidden">
-        <div className="text-lg font-medium text-green-500 uppercase p-8 text-center border-b border-gray-200 tracking-wide">For Personal Security</div>
+        <div className="text-lg font-medium text-green-500 uppercase p-8 text-center border-b border-gray-200 tracking-wide">For Personal Security</div> */}
         {/* <div className="block sm:flex md:block lg:flex items-center justify-center">
           <div className="mt-8 sm:m-8 md:m-0 md:mt-8 lg:m-8 text-center">
             <div className="inline-flex items-center">
@@ -88,66 +91,165 @@ const FeatureComponent = () => {
             <span className="block text-sm text-gray-600 mt-2">for non-European cards</span>
           </div>
         </div> */}
-        <div className="flex justify-center mt-3">
-          <ul>
-            <li className="flex items-center">
-              <div className="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon-umbrella"><path className="primary" d="M11 3.05V2a1 1 0 0 1 2 0v1.05A10 10 0 0 1 22 13c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a10 10 0 0 1 9-9.95z"/><path className="secondary" d="M11 14a1 1 0 0 1 2 0v5a3 3 0 0 1-6 0 1 1 0 0 1 2 0 1 1 0 0 0 2 0v-5z"/></svg>
-              </div>
-              <span className="text-gray-700 text-lg ml-3">No Traffic / Request Logs</span>
-            </li>
-            <li className="flex items-center mt-3">
-              <div className="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon-shopping-bag"><path className="primary" d="M5 8h14a1 1 0 0 1 1 .92l1 12A1 1 0 0 1 20 22H4a1 1 0 0 1-1-1.08l1-12A1 1 0 0 1 5 8z"/><path className="secondary" d="M9 10a1 1 0 0 1-2 0V7a5 5 0 1 1 10 0v3a1 1 0 0 1-2 0V7a3 3 0 0 0-6 0v3z"/></svg>
-              </div>
-              <span className="text-gray-700 text-lg ml-3">Unmetered Data Transfer</span>
-            </li>
-            <li className="flex items-center mt-3">
-              <div className="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon-pie-chart"><path className="primary" d="M14 13h6.78a1 1 0 0 1 .97 1.22A10 10 0 1 1 9.78 2.25a1 1 0 0 1 1.22.97V10a3 3 0 0 0 3 3z"/><path className="secondary" d="M20.78 11H14a1 1 0 0 1-1-1V3.22a1 1 0 0 1 1.22-.97c3.74.85 6.68 3.79 7.53 7.53a1 1 0 0 1-.97 1.22z"/></svg>
-              </div>
-              <span className="text-gray-700 text-lg ml-3">Anonymous VPN</span>
-            </li>
-            <li className="flex items-center mt-3">
-              <div className="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon-pie-chart"><path className="primary" d="M14 13h6.78a1 1 0 0 1 .97 1.22A10 10 0 1 1 9.78 2.25a1 1 0 0 1 1.22.97V10a3 3 0 0 0 3 3z"/><path className="secondary" d="M20.78 11H14a1 1 0 0 1-1-1V3.22a1 1 0 0 1 1.22-.97c3.74.85 6.68 3.79 7.53 7.53a1 1 0 0 1-.97 1.22z"/></svg>
-              </div>
-              <span className="text-gray-700 text-lg ml-3">Block ADs, Trackers and Malware</span>
-            </li>
-            <li className="flex items-center mt-3">
-              <div className="bg-green-200 rounded-full p-2 fill-current text-green-700">
-                <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon-pie-chart"><path className="primary" d="M14 13h6.78a1 1 0 0 1 .97 1.22A10 10 0 1 1 9.78 2.25a1 1 0 0 1 1.22.97V10a3 3 0 0 0 3 3z"/><path className="secondary" d="M20.78 11H14a1 1 0 0 1-1-1V3.22a1 1 0 0 1 1.22-.97c3.74.85 6.68 3.79 7.53 7.53a1 1 0 0 1-.97 1.22z"/></svg>
-              </div>
-              <span className="text-gray-700 text-lg ml-3">Firewall Enabled</span>
-            </li>
-          </ul>
-        </div>
-        <a className="block flex items-center justify-center bg-gray-200 hover:bg-gray-300 p-8 text-md font-semibold text-gray-800 uppercase mt-16" href="#">
-          <span>Know More</span>
-          <span className="font-medium text-gray-700 ml-2">➔</span>
-        </a>
-      </div>
-      <div className="w-full md:w-1/2 relative z-0 px-8 md:px-0 md:py-16">
-        <div className="bg-blue-900 text-white rounded-b md:rounded-b-none md:rounded-r shadow-lg overflow-hidden">
-          <div className="text-lg font-medium uppercase p-8 text-center border-b border-blue-800 tracking-wide">For Enterprise Security</div>
-          <div className="text-center text-sm sm:text-md max-w-sm mx-auto mt-8 text-blue-200 px-8 lg:px-0">
-          Multiple Solutions for Enterprises
-          </div>
-          <div className="mt-8 border border-blue-800 mx-8 lg:mx-16 flex flex-wrap">
-            <div className="flex items-center justify-center w-1/2 text-center p-4 border-r border-b border-blue-800">Priority Support</div>
-            <div className="flex items-center justify-center w-1/2 text-center p-4 border-b border-blue-800">Dedicated IP Addresses</div>
-            <div className="flex items-center justify-center w-1/2 text-center p-4 border-r border-blue-800">Blockchain Services</div>
-            <div className="flex items-center justify-center w-1/2 text-center p-4">Server & Application Security</div>
-          </div>
-          <a className="block flex items-center justify-center bg-blue-800 hover:bg-blue-700 p-8 text-md font-semibold text-gray-300 uppercase mt-8" href="#">
-            <span>Know more</span>
-            <span className="font-medium text-gray-300 ml-2">➔</span>
-          </a>
-        </div>
-      </div>
-    </div>  
+      
+      
   </div>
 
+  <section className="block relative z-1 bg-gray-600">
+        <div className="container mx-auto">
+          <div className="justify-center flex flex-wrap">
+            <div className="w-full lg:w-12/12 px-4  -mt-24">
+              <div className="flex flex-wrap">
+                <div className="w-full lg:w-6/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    For Personal Security
+                  </h5>
+                  <Link href="/auth/login">
+                    <div className="hover:-mt-4 relative flex flex-col justify-center items-center min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url("https://www.indusface.com/wp-content/uploads/2019/07/Things-To-Consider-When-Choosing-A-SaaS-Security-Provider-1200x720.png")` }}>
+                      <div class="pt-8 pl-10">
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;No Traffic / Request Logs
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Unmetered Data Transfer
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Anonymous VPN
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Block ADs, Trackers and Malware
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Firewall Enabled
+                        </li>
+                        <div class="block flex items-center p-8  uppercase">
+                          <button
+                            class="mt-3 text-lg font-semibold 
+                                            bg-blue-600 w-full text-white rounded-lg 
+                                            px-6 py-3 block shadow-xl hover:bg-gray-700"
+                            style={{ backgroundColor: '#24A0ED' }}
+                          >
+                            Get Started
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+
+                <div className="w-full lg:w-6/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    For Enterprise Security
+                  </h5>
+                  <Link href="/profile">
+                    <div className="hover:-mt-4 relative flex flex-col justify-center items-center min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundImage: `url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6aGpeL5n3carq57Df8-0zAimrWFDV2ulbHKfzoot1w03XDTrQ7UI-Hn3xZQofRL4ASiY&usqp=CAU")` }}>
+                      <div class="pt-8 pl-10">
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Multiple Solutions for Enterprises
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Dedicated IP Addresses
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Blockchain Services
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Server & Application Security
+                        </li>
+                        <li class="mb-3 flex items-center ">
+                          <i className="fas fa-check-circle" style={{ color: 'green' }}></i>
+                          &nbsp;Priority Support
+                        </li>
+                        <div class="block flex items-center p-8  uppercase">
+                          <button
+                            class="mt-3 text-lg font-semibold 
+                                            bg-blue-600 w-full text-white rounded-lg 
+                                            px-6 py-3 block shadow-xl hover:bg-gray-700"
+                            style={{ backgroundColor: '#24A0ED' }}
+                          >
+                            Get Started
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="spacer bg-gray-600 pb-60">
+                <Container>
+                    <Row className="justify-content-center">
+                        <Col md="7" className="text-center">
+                            <h1 className="title font-bold text-5xl">What it does?</h1>
+                            <h6 className="subtitle pb-10">
+                                Lazarus Network leverages AI and Blockchain Technologies For Cyber Defense to protect
+                                individuals and companies from cyber-attacks like ransomware, email spoofing, phishing etc.
+                                We help them by securing the network layer within their home/office so that all applications
+                                can only access authorized services and malicious services are blocked.
+                            </h6>
+                            <div className="relative" style={{ paddingTop: '56.25%' }}>
+                                <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube-nocookie.com/embed/QwGWq9Jvp0U" frameBorder="0"></iframe>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
+            <section className="pb-16 bg-gray-200 relative pt-32">
+        <div
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-gray-200 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div className="container mx-auto">
+          <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
+            <div className="w-full text-center lg:w-8/12">
+              <h3 className="font-semibold text-3xl">
+              Let's keep in touch!
+              </h3>
+              <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
+                Subscribe and get updates via email
+              </p>
+              <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-row justify-center items-center w-full max-w-md shadow-xl border-t border-b border-gray-200">
+                  <input className="border-l-4 border-red-700 bg-white focus:outline-none px-4 w-full m-0" placeholder="Email"
+                    type="text" />
+                  <button
+                    className="inline-flex text-black py-2 px-6 focus:outline-none text-lg m-0 h-12 bg-gray-100">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
   
       {/* <div className="bg-light spacer feature20 up">
         <Container>

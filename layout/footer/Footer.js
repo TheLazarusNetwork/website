@@ -5,7 +5,7 @@ import {FaDiscord} from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="footer4 b-t spacer pb-4 pt-4">
+    <div className="footer4 spacer pb-4 pt-4 bg-gray-200">
       <Container>
         <Row>
           <Col lg="3" md="6" className="m-b-0">
