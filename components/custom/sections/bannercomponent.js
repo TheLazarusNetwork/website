@@ -15,9 +15,8 @@ const BannerComponent = () => {
               <h6 className="subtitle op-8" style={{color: 'black'}}>
               Leveraging AI And Blockchain Technologies For Cyber Defense to protect you from online Viruses while you Work From Home.
               </h6>
-              <h6 className="subtitle op-8" style={{color: 'black'}}>
-              We diagnose your IT Security faults and weaknesses Before Hackers Do
-              </h6>
+              {/* <h6 className="subtitle op-8" style={{color: 'black'}}>
+              </h6> */}
               <Row style={{paddingTop:15}}>
               <Col lg="6" md="6" className="m-b-30">
                 <h6 style={{paddingBottom:10}}><i class="fa fa-check-circle-o" aria-hidden="true" style={{color:'green'}}></i> Surf Internet Anonymously</h6>
