@@ -13,7 +13,7 @@ const services = () => {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+                "url('https://www.swg.com/wp-content/uploads/2017/11/Hosting-SaaS-banner.jpg')",
             }}
           >
             <span
@@ -30,7 +30,7 @@ const services = () => {
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                   Hence we decided to work on a secure firewall which filters the internet based on blacklisted Websites/IP/domains and only allows the users to access safe websites.
-                  Our solutions benefit enterprises, startups, smart homes and individuals by giving them complete control over the internet - It's just like setting up parental controls on any app but for the entire network.
+                  Our solutions benefit enterprises, startups, smart homes and individuals by giving them complete control over the internet - Its just like setting up parental controls on any app but for the entire network.
                   </p>
                 </div>
               </div>

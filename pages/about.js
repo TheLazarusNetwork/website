@@ -4,19 +4,25 @@ import { Row, Col, Container} from "reactstrap";
 export default function App() {
     return (
         <div>
-            <div className="spacer bg-light pb-80">
-                
+            <div className="spacer bg-light pb-80" style={{
+              backgroundImage:
+                "url('https://www.appxite.com/hubfs/Blog%20Posts/Blog%20covers/ax_blog_1%20%E2%80%93%2010.svg')",
+                backgroundRepeat:'no-repeat'
+            }}>
+                <h3 className="text-4xl font-semibold leading-normal mb-2 text-white my-20 text-center">
+                    Our Mission:
+                  </h3>
             </div>
             <section className="relative py-1 bg-blueGray-200">
           <div className="container mx-auto px-0">
             <div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-900 w-full mb-0 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
                 <div className="text-center mt-16">
-                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
+                  {/* <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     Our Mission:
-                  </h3>
+                  </h3> */}
                 </div>
-                <div className="mt-10 py-10 border-t border-blueGray-200">
+                <div className="mt-10 py-10 border-blueGray-200">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
