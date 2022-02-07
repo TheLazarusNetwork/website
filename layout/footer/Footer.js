@@ -19,36 +19,40 @@ const Footer = () => {
           </Col>
           
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Email</h5>
+            <h5 className="m-b-20 font-bold">Email</h5>
             <p>
-              Office :
-              <Link href="#">
-                <a className="link">connect@lazarus.network</a>
+              Office:
+              <Link href="mailto:connect@lazarus.network">
+                <a className="text-gray-700"> connect@lazarus.network</a>
               </Link>
               <br />
-              Site :
+              Site:
               <Link href="https://lazarus.network/">
-                <a className="link">lazarus.network</a>
+                <a className="text-gray-700"> lazarus.network</a>
               </Link>
             </p>
-            <h5 className="m-t-20 m-b-10">Phone</h5>
-            <p>
-              Office : +1 954 378 9548
+            <h5 className="m-t-20 m-b-10 font-bold">Phone</h5>
+            <p>Office:
+            <a href="tel:+1 954 378 9548" className="text-gray-700">
+               &nbsp; +1 954 378 9548
+            </a>
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Useful Links</h5>
-            <Link href="/about"><p className="cursor-pointer">About</p></Link>
-            <Link href="/contact"><p className="cursor-pointer">Contact</p></Link>
-            <Link href="/services"><p className="cursor-pointer">Services</p></Link>
-            <Link href="/pricing"><p className="cursor-pointer">Pricing</p></Link>
-            <Link href="https://app.lazarus.network/#/auth"><p className="cursor-pointer">Dashboard</p></Link>
+            <h5 className="m-b-20 font-bold">Useful Links</h5>
+            <Link href="/about"><p className="cursor-pointer text-gray-700">About</p></Link>
+            <Link href="/contact"><p className="cursor-pointer text-gray-700">Contact</p></Link>
+            <Link href="/services"><p className="cursor-pointer text-gray-700">Services</p></Link>
+            <Link href="/pricing"><p className="cursor-pointer text-gray-700">Pricing</p></Link>
+            <Link href="https://app.lazarus.network/#/auth"><p className="cursor-pointer text-gray-700">Dashboard</p></Link>
           </Col>
           <Col lg="3" md="6">
-            <h5 className="m-b-20">Address</h5>
-            <p>Sector 8, Dwarka, New Delhi, India 110077</p>
+            <h5 className="m-b-20 font-bold">Address</h5>
+            <p className="text-gray-700">2209 SW 58th Way
+West Park, <br/>Florida 33023
+</p>
             <br />
-            <h5 className="m-b-20">Social</h5>
+            <h5 className="m-b-20 font-bold">Social</h5>
             <div className="round-social light">
               <Link href="https://www.facebook.com/Lazarus.Network">
                 <a className="link">
@@ -80,11 +84,11 @@ const Footer = () => {
                   <i className="fa fa-instagram"></i>
                 </a>
               </Link>
-              <Link href="https://web.telegram.org/k/">
+              {/* <Link href="https://web.telegram.org/k/">
                 <a className="link">
                   <i className="fa fa-telegram"></i>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </Col>
         </Row>
@@ -92,11 +96,11 @@ const Footer = () => {
           <Row>
             <Col md="12">
               <div className="font-14 b-t">
-                <div className="m-t-10 m-b-10 copyright">
+                <div className="m-t-10 m-b-10">
                   {/* All Rights Reserved by{" "} */}
-                  <Link href="https://www.wrappixel.com">
-                    <a className="link">© Copyright {year} Lazarus Network</a>
-                  </Link>
+                  {/* <Link href="https://www.wrappixel.com"> */}
+                    <p className="text-black">© Copyright {year} Lazarus Network</p>
+                  {/* </Link> */}
                 </div>
                 {/* <div className="links ml-auto m-t-10 m-b-10 pr-4">
                   <Link href="#">

@@ -2,6 +2,7 @@
 import React from "react";
 import {useState} from 'react';
 import { Row, Col, Container } from "reactstrap";
+import Link from "next/link";
 
 const PricingComponent = () => {
   const [showMe, setshowMe] = useState(false);
@@ -129,9 +130,11 @@ const PricingComponent = () => {
                                     Dedicated IP
                                 </li>
                             </ul>
+                            <Link href="/contact">
                             <button type="button" class="w-full px-3 py-3 text-sm shadow rounded-lg text-indigo-500 hover:text-white bg-white hover:bg-indigo-500 transition-colors duration-700 transform">
                                 Continue
                             </button>
+                            </Link>
                         </div>
 
 
@@ -211,9 +214,11 @@ const PricingComponent = () => {
                                     Dedicated IP
                                 </li>
                             </ul>
+                            <Link href="/contact">
                             <button type="button" class="w-full px-3 py-3 text-sm shadow rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-700 transform">
                                 Continue
                             </button>
+                            </Link>
                         </div>
 
                         <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6 shadow-lg rounded-lg">
@@ -292,9 +297,11 @@ const PricingComponent = () => {
                                     Dedicated IP
                                 </li>
                             </ul>
+                            <Link href="/contact">
                             <button type="button" class="w-full px-3 py-3 text-sm shadow rounded-lg text-indigo-500 hover:text-white bg-white hover:bg-indigo-500 transition-colors duration-700 transform">
                                 Continue
                             </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -307,8 +314,8 @@ const PricingComponent = () => {
                                     Contact us for corporate custom plans. Our experts will be in touch with you to offer customized Dedicated Virtual Private Network with limitless resource as per your need. Bandwidth up to 1 Gbps, unlimited VPN clients and more.
                                 </h6>
                                 <a
-                                    href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
-                                    className="btn btn-danger m-r-20 pt-2 pl-3 pr-3 pb-2 btn-sm m-t-30"
+                                    href="/contact"
+                                    className="btn bg-gray-700 m-r-20 pt-2 pl-3 pr-3 pb-2 btn-sm m-t-30"
                                     style={{ fontSize: 15 }}
                                 >
                                     Contact Us
@@ -400,6 +407,7 @@ const PricingComponent = () => {
 
                                     </div>
                                     <div class="block flex items-center p-8  uppercase">
+                                        <Link href="/contact">
                                         <button
                                             class="mt-3 text-lg font-semibold 
                                             bg-blue-600 w-full text-white rounded-lg 
@@ -407,6 +415,7 @@ const PricingComponent = () => {
                                         >
                                             Get Started
                                         </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -463,6 +472,7 @@ const PricingComponent = () => {
                                 </div>
 
                                 <div class="block flex items-center p-8  uppercase">
+                                <Link href="/contact">
                                     <button
                                         class="mt-3 text-lg font-semibold 
 	bg-blue-600 w-full text-white rounded-lg 
@@ -470,6 +480,7 @@ const PricingComponent = () => {
                                     >
                                         Get Started
                                     </button>
+                                    </Link>
                                 </div>
                             </div>
                             <div
@@ -523,6 +534,7 @@ const PricingComponent = () => {
                                     </div>
 
                                     <div class="block flex items-center p-8  uppercase">
+                                    <Link href="/contact">
                                         <button
                                             class="mt-3 text-lg font-semibold 
 	bg-blue-600 w-full text-white rounded-lg 
@@ -530,6 +542,7 @@ const PricingComponent = () => {
                                         >
                                             Get Started
                                         </button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

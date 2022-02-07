@@ -149,7 +149,9 @@ const services = () => {
                       <li><a href="#" className="font-semibold">Monitor statistics</a></li>
                     </ul>
                     <div className="text-center bg-pink-600 ">
+                    <Link href="/pricing">
                       <button className="inline-block my-6 font-bold text-white">Get started today</button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -199,7 +201,9 @@ const services = () => {
                     <li><a href="#" className="font-semibold">Dedicated Bandwidth and Performance - Not Shared</a></li>
                   </ul>
                   <div className="text-center bg-pink-600 ">
+                  <Link href="/pricing">
                     <button className="inline-block my-6 font-bold text-white">Get started today</button>
+                    </Link>
                   </div>
                 </div>
               </div>
