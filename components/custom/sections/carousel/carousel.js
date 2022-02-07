@@ -39,7 +39,7 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/vpn-solid.png" alt="hero banner" style={{ width: 700 }} />
+                        {/* <img src="https://lazarus.network/assets/images/Media/vpn-solid.png" alt="hero banner" style={{ width: 700 }} /> */}
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/drive-solid.png" alt="hero banner" style={{ width: 350 }} />
+                        {/* <img src="https://lazarus.network/assets/images/Media/drive-solid.png" alt="hero banner" style={{ width: 350 }} /> */}
                     </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/stream-solid.png" alt="hero banner" style={{ width: 550 }} />
+                        {/* <img src="https://lazarus.network/assets/images/Media/stream-solid.png" alt="hero banner" style={{ width: 550 }} /> */}
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/tunnel-solid.png" alt="hero banner" style={{ width: 450 }} />
+                        {/* <img src="https://lazarus.network/assets/images/Media/tunnel-solid.png" alt="hero banner" style={{ width: 450 }} /> */}
                     </div>
                 </div>
             </div>
@@ -134,7 +134,7 @@ function carousel() {
                         </a>
                     </div>
                     <div>
-                        <img src="https://lazarus.network/assets/images/Media/firewall-solid.png" alt="hero banner" style={{ width: 500 }} />
+                        {/* <img src="https://lazarus.network/assets/images/Media/firewall-solid.png" alt="hero banner" style={{ width: 500 }} /> */}
                     </div>
                 </div>
             </div>

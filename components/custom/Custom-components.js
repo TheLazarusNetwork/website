@@ -5,9 +5,10 @@ import Banner2 from "../banner/Banner2";
 
 // sections for this page
 import BannerComponent from "./sections/bannercomponent";
-import Carousel from "./sections/carousel/carousel.js";
-import FormBannerComponent from "./sections/formbannercomponent";
+// import Carousel from "./sections/carousel/carousel.js";
+// import FormBannerComponent from "./sections/formbannercomponent";
 import FeatureComponent from "./sections/featurecomponent";
+
 // import PortfolioComponent from "./sections/portfoliocomponent";
 // import PricingComponent from "./sections/pricingcomponent";
 // import TeamComponent from "./sections/teamcomponent";
@@ -16,6 +17,7 @@ import FeatureComponent from "./sections/featurecomponent";
 // import C2aComponent from "./sections/c2acomponent";
 // import ContactComponent from "./sections/contactcomponent";
 // import CallToAction from "../../components/call-to-action/CallToAction";
+import Image from "next/image";
 
 const CustomComponents = () => {
   return (
@@ -30,35 +32,38 @@ const CustomComponents = () => {
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:pt-40">
-                  <img
+                  <Image
                     alt="..."
                     className="shadow-lg rounded-lg"
-                    src="https://lazarus.network/assets/images/Media/vpn-solid.png"
-                  />
-                  <img
+                    src="/vpn-solid.png"
+                    width="500" height="500"
+                    />
+                  <Image
                     alt="..."
                     className="shadow-md rounded-lg my-4"
-                    src="https://lazarus.network/assets/images/Media/drive-solid.png"
+                    src="/drive-solid.png"
+                    width="500" height="500"
                   />
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <img
+                  <Image
                     alt="..."
                     className="shadow-md rounded-lg"
-                    src="https://lazarus.network/assets/images/Media/stream-solid.png"
+                    src="/stream-solid.png"
+                    width="500" height="500"
                   />
-                  <img
+                  <Image
                     alt="..."
                     className="shadow-md rounded-lg my-4"
-                    src="https://lazarus.network/assets/images/Media/tunnel-solid.png"
+                    src="/tunnel-solid.png"
+                    width="500" height="500"
                   />
-                  <img
+                  <Image
                     alt="..."
-                    className="shadow-md rounded-lg"
-                    src="https://lazarus.network/assets/images/Media/firewall-solid.png"
+                    className="shadow-md rounded-lg mt-4"
+                    src="/firewall-solid.png"
+                    width="500" height="500"
                   />
-
-
                 </div>
               </div>
             </div>

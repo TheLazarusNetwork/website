@@ -18,10 +18,10 @@ const FormBannerComponent = () => {
                     className="inline-flex text-black py-2 px-6 focus:outline-none text-lg m-0 h-12 bg-gray-100">Subscribe</button>
             </div>
         </div>
-        <div className="md:w-1/2 w-5/6">
+        {/* <div className="md:w-1/2 w-5/6">
             <img className="object-cover object-center" alt="hero"
                 src="https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062__480.png"/>
-        </div>
+        </div> */}
 
     </section>
     </div>

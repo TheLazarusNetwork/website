@@ -141,12 +141,12 @@ const services = () => {
                     <p className="px-4 text-center text-sm ">Anonymous VPN uses P2P VPN Solution for bypassing IP Fingerprinting. Get 100% anonymous internet browsing around the world including restricted regions.
                       <br /><br />Lazarus VPN gives you encrypted internet surfing and prevents hackers and malware from accessing your data between your device and the internet.</p>
                     <ul className="text-center py-3">
-                      <li><a className="font-semibold">Secure online browsing</a></li>
-                      <li><a className="font-semibold">Access to Restricted Content</a></li>
-                      <li><a className="font-semibold">Network-wide protection</a></li>
-                      <li><a className="font-semibold">Block in-app advertisements</a></li>
-                      <li><a className="font-semibold">Improve network performance</a></li>
-                      <li><a className="font-semibold">Monitor statistics</a></li>
+                      <li><p className="font-semibold hover:text-blue-800">Secure online browsing</p></li>
+                      <li><p className="font-semibold hover:text-blue-800">Access to Restricted Content</p></li>
+                      <li><p className="font-semibold hover:text-blue-800">Network-wide protection</p></li>
+                      <li><p className="font-semibold hover:text-blue-800">Block in-app advertisements</p></li>
+                      <li><p className="font-semibold hover:text-blue-800">Improve network performance</p></li>
+                      <li><p className="font-semibold hover:text-blue-800">Monitor statistics</p></li>
                     </ul>
                     <div className="text-center bg-pink-600 ">
                     <Link href="/pricing">
@@ -194,11 +194,11 @@ const services = () => {
                   <p className="px-4 text-center text-sm ">Lazarus VPN is an encrypted tunneling solution for end users offering WireGuard® Tunneling, secured by Ed25519 Private Key Encryption, Multi Region Network, Peer to Peer network access along with network layer customizable firewall. Get higher bandwidth and optimized performance for enterprise software usages requiring good latency.
                     <br /><br />Lazarus Firewall is incorporated on the network layer (DNS Layer) for detecting and eliminating cyber threats which try to attack the application system.</p>
                   <ul className="text-center py-4">
-                    <li><a className="font-semibold">All the features of ANONYMOUS VPN</a></li>
-                    <li><a className="font-semibold">
-                      Dedicated Network - Secure Tunnel</a></li>
-                    <li><a className="font-semibold">Network Layer Customizable Firewall</a></li>
-                    <li><a className="font-semibold">Dedicated Bandwidth and Performance - Not Shared</a></li>
+                    <li><p className="font-semibold hover:text-blue-800">All the features of ANONYMOUS VPN</p></li>
+                    <li><p className="font-semibold hover:text-blue-800">
+                      Dedicated Network - Secure Tunnel</p></li>
+                    <li><p className="font-semibold hover:text-blue-800">Network Layer Customizable Firewall</p></li>
+                    <li><p className="font-semibold hover:text-blue-800">Dedicated Bandwidth and Performance - Not Shared</p></li>
                   </ul>
                   <div className="text-center bg-pink-600 ">
                   <Link href="/pricing">
