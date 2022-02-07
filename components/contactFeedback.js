@@ -1,0 +1,23 @@
+import { useState } from "react";
+
+export default function ContactFeedback(props) {
+  const [clicked, setClicked] = useState(true);
+
+  function handleClick(e) {
+    setClicked(false);
+    props.onClick(false);
+  }
+
+  setTimeout(() => {
+    props.onClick(false);
+  }, 3000);
+  return (
+    <>
+      {clicked ? (
+        <div onClick={handleClick}>
+          MESSAGE SENT! THANK YOU!
+        </div>
+      ) : null}
+    </>
+  );
+}
