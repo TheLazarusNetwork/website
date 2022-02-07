@@ -4,6 +4,7 @@ import { Row, Col, Container} from "reactstrap";
 import Image from "next/image";
 import Link from 'next/link';
 import Emailer from '../../emailer';
+import { FaDiscord } from 'react-icons/fa';
 
 
 const FeatureComponent = () => {
@@ -235,20 +236,30 @@ const FeatureComponent = () => {
               Let's keep in touch!
               </h3>
               <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Subscribe and get updates via email
+                Connect to the Community by joining our discord channel.
+                <Link href="https://discord.com/invite/S6g4ctv">
+                <div className="text-white ml-2 p-3 w-12 h-12 cursor-pointer shadow-lg rounded-full bg-blue-500 inline-flex items-center justify-center">
+                <i className="fa fa-discord text-xl"><FaDiscord /></i>
+                </div>
+                {/* <a className="link">
+                 
+                </a> */}
+              </Link>
               </p>
-              <div className="flex flex-col justify-center items-center">
-                <div className="flex flex-row justify-center items-center w-full max-w-md shadow-xl border-t border-b border-gray-200">
+              
+              {/* <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-row justify-center items-center w-full max-w-md shadow-xl border-t border-b border-gray-200"> */}
                   {/* <input className="border-l-4 border-red-700 bg-white focus:outline-none px-4 w-full m-0" placeholder="Email"
                     type="email" 
                     />
                   <button
                     className="inline-flex text-black py-2 px-6 focus:outline-none text-lg m-0 h-12 bg-gray-100"
                     >Subscribe</button> */}
-          <Emailer/>
 
-                </div>
-              </div>
+          {/* <Emailer/> */}
+
+                {/* </div>
+              </div> */}
             </div>
           </div>
         </div>
