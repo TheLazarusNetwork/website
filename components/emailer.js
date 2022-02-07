@@ -22,7 +22,7 @@ export default function EmailSignup() {
       <p className="text-black">Subscribe to get a weekly email of new jobs</p>
       <form className="form" onSubmit={signUp}>
         {success ? (
-          <span className="success text-black" >Thanks! You're Signed Up!</span>
+          <span className="success text-black" >Thanks! You are Signed Up!</span>
         ) : (
           <>
             <input
