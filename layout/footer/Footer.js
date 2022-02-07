@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
             <h5 className="m-t-20 m-b-10">Phone</h5>
             <p>
-              Office : +91 895 1415 895
+              Office : +1 954 378 9548
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
