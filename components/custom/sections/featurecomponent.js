@@ -1,43 +1,12 @@
 /* eslint-disable */
 import React from "react";
-import { Row, Col, Container, Card, CardBody } from "reactstrap";
+import { Row, Col, Container} from "reactstrap";
 import Image from "next/image";
-import img1 from "../../../assets/images/features/feature13/img1.jpg";
-import img2 from "../../../assets/images/features/feature13/img2.jpg";
-import img3 from "../../../assets/images/features/feature13/img3.jpg";
-import img4 from "../../../assets/images/features/feature13/img4.jpg";
-import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 import Link from 'next/link';
-
-import axios from "axios";
-import { toast } from "react-toastify";
-import { useState } from "react";
+import Emailer from '../../emailer';
 
 
 const FeatureComponent = () => {
-
-  const [mail, setMail] = useState(null);
-  const [loading, setLoading] = useState(false);
-
-  const subscribe = () => {
-    setLoading(true);
-    axios
-      .put("api/mailingList", {
-        mail,
-      })
-      .then((result) => {
-        if (result.status === 200) {
-          toast.success(result.data.message);
-          setLoading(false);
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-        setLoading(false);
-      });
-  };
-
-
   return (
     <div>
       <div className="spacer feature4">
@@ -266,16 +235,14 @@ const FeatureComponent = () => {
               </p>
               <div className="flex flex-col justify-center items-center">
                 <div className="flex flex-row justify-center items-center w-full max-w-md shadow-xl border-t border-b border-gray-200">
-                  <input className="border-l-4 border-red-700 bg-white focus:outline-none px-4 w-full m-0" placeholder="Email"
+                  {/* <input className="border-l-4 border-red-700 bg-white focus:outline-none px-4 w-full m-0" placeholder="Email"
                     type="email" 
-                    onChange={(e) => {
-                      setMail(e.target.value);
-                    }}
                     />
                   <button
                     className="inline-flex text-black py-2 px-6 focus:outline-none text-lg m-0 h-12 bg-gray-100"
-                    onClick={subscribe}
-                    >Subscribe</button>
+                    >Subscribe</button> */}
+          <Emailer/>
+
                 </div>
               </div>
             </div>
