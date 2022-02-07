@@ -218,6 +218,7 @@ export default function App() {
                           setFullname(e.target.value);
                         }}
                         name="fullname"
+                        placeholder="Enter your name"
                       />
                     </div>
                     {errors?.fullname && (
@@ -234,6 +235,7 @@ export default function App() {
                         className="border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         type="email"
                         name="email"
+                        placeholder="Enter your email address"
                         value={email}
                         onChange={(e) => {
                           setEmail(e.target.value);
@@ -254,6 +256,7 @@ export default function App() {
                         className="border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                         type="text"
                         name="subject"
+                        placeholder="Subject"
                         value={subject}
                         onChange={(e) => {
                           setSubject(e.target.value);
@@ -275,6 +278,7 @@ export default function App() {
                         cols="80"
                         className="border-0 px-3 py-3 placeholder-gray-300 text-gray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                         name="message"
+                        placeholder="Write your message here."
                         value={message}
                         onChange={(e) => {
                           setMessage(e.target.value);
