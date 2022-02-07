@@ -123,7 +123,8 @@ const FeatureComponent = () => {
                           &nbsp;&nbsp;&nbsp;Firewall Enabled
                         </li>
                         <div class="block flex items-center p-8  uppercase">
-                          <button
+                          <Link href="/pricing">
+                          <button 
                             class="mt-3 text-lg font-semibold 
                                             bg-gray-800 w-full text-white rounded-lg 
                                             px-6 py-3 block shadow-xl hover:bg-gray-700"
@@ -131,6 +132,7 @@ const FeatureComponent = () => {
                           >
                             Get Started
                           </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -165,6 +167,7 @@ const FeatureComponent = () => {
                           &nbsp;&nbsp;&nbsp;Priority Support
                         </li>
                         <div class="block flex items-center p-8  uppercase">
+                        <Link href="/pricing">
                           <button
                             class="mt-3 text-lg font-semibold 
                                             bg-gray-800 w-full text-white rounded-lg 
@@ -173,6 +176,7 @@ const FeatureComponent = () => {
                           >
                             Get Started
                           </button>
+                          </Link>
                         </div>
                       </div>
                     </div>

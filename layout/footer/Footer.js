@@ -4,6 +4,9 @@ import Link from "next/link";
 import { FaDiscord } from 'react-icons/fa';
 
 const Footer = () => {
+  let date = new Date();
+  let year = date.getFullYear();
+
   return (
     <div className="footer4 spacer pb-4 pt-4 bg-gray-200">
       <Container>
@@ -35,11 +38,11 @@ const Footer = () => {
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Useful Links</h5>
-            <p className="cursor-pointer">About</p>
-            <p className="cursor-pointer">Contact</p>
-            <p>Services</p>
-            <p>Pricing</p>
-            <p>Dashboard</p>
+            <Link href="/about"><p className="cursor-pointer">About</p></Link>
+            <Link href="/contact"><p className="cursor-pointer">Contact</p></Link>
+            <Link href="/services"><p className="cursor-pointer">Services</p></Link>
+            <Link href="/pricing"><p className="cursor-pointer">Pricing</p></Link>
+            <Link href="https://app.lazarus.network/#/auth"><p className="cursor-pointer">Dashboard</p></Link>
           </Col>
           <Col lg="3" md="6">
             <h5 className="m-b-20">Address</h5>
@@ -92,7 +95,7 @@ const Footer = () => {
                 <div className="m-t-10 m-b-10 copyright">
                   {/* All Rights Reserved by{" "} */}
                   <Link href="https://www.wrappixel.com">
-                    <a className="link">© Copyright 2020 Lazarus Network</a>
+                    <a className="link">© Copyright {year} Lazarus Network</a>
                   </Link>
                 </div>
                 {/* <div className="links ml-auto m-t-10 m-b-10 pr-4">

@@ -30,7 +30,7 @@ const BannerComponent = () => {
               </Col>
           </Row>
           <a
-              href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
+              href="/contact"
               className="btn bg-gray-700 m-r-20 btn-md m-t-0"
             >
               Join Us
