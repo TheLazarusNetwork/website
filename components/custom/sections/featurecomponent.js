@@ -241,9 +241,6 @@ const FeatureComponent = () => {
                 <div className="text-white ml-2 p-3 w-12 h-12 cursor-pointer shadow-lg rounded-full bg-blue-500 inline-flex items-center justify-center">
                 <i className="fa fa-discord text-xl"><FaDiscord /></i>
                 </div>
-                {/* <a className="link">
-                 
-                </a> */}
               </Link>
               </p>
               

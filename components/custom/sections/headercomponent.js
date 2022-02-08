@@ -65,9 +65,9 @@ const HeaderComponent = () => {
                 <Link className="pl-2" href="/about">
                   <NavLink  style={{color:'white',cursor:'pointer'}}>About Us</NavLink>
                 </Link>
-                <Link className="pl-2" href="/contact">
+                {/* <Link className="pl-2" href="/contact">
                   <NavLink style={{color:'white',cursor:'pointer'}}>Contact</NavLink>
-                </Link>
+                </Link> */}
                 <Link className="pr-1 pl-2 pt-1" href="https://app.lazarus.network/#/auth">
                   <a className="btn bg-gray-700 pl-2 pr-2 uppercase font-bold text-sm"  style={{color:'white',paddingBottom:8,paddingTop:10}}>
                     Dashboard

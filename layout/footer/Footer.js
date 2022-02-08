@@ -41,7 +41,7 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20 font-bold">Useful Links</h5>
             <Link href="/about"><p className="cursor-pointer text-gray-700">About</p></Link>
-            <Link href="/contact"><p className="cursor-pointer text-gray-700">Contact</p></Link>
+            {/* <Link href="/contact"><p className="cursor-pointer text-gray-700">Contact</p></Link> */}
             <Link href="/services"><p className="cursor-pointer text-gray-700">Services</p></Link>
             <Link href="/pricing"><p className="cursor-pointer text-gray-700">Pricing</p></Link>
             <Link href="https://app.lazarus.network/#/auth"><p className="cursor-pointer text-gray-700">Dashboard</p></Link>

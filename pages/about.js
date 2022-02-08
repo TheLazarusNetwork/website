@@ -9,7 +9,7 @@ export default function App() {
                 "url('https://www.appxite.com/hubfs/Blog%20Posts/Blog%20covers/ax_blog_1%20%E2%80%93%2010.svg')",
                 backgroundRepeat:'no-repeat'
             }}>
-                <h3 className="text-4xl font-semibold leading-normal mb-2 text-white my-20 text-center">
+                <h3 className="text-4xl font-semibold leading-normal mb-10 text-white mt-2 text-center">
                     Our Mission:
                   </h3>
             </div>
@@ -25,7 +25,7 @@ export default function App() {
                 <div className="mt-10 py-10 border-blueGray-200">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
+                      <p className="mb-4 text-lg leading-relaxed text-gray-900">
                       Our mission is to provide effective security and smooth operations.  We provide solutions to SMEs and individuals with the best-in-class security services, professional services, and support. We provide full-service information cyber security consulting services for Premium Membership to clients. 
                         <br /><br />
                         Lazarus is a decentralized blockchain network, with the goal of creating a truly private, secure, and fair Internet.

@@ -130,7 +130,7 @@ const PricingComponent = () => {
                                     Dedicated IP
                                 </li>
                             </ul>
-                            <Link href="/contact">
+                            <Link href="/">
                             <button type="button" class="w-full px-3 py-3 text-sm shadow rounded-lg text-indigo-500 hover:text-white bg-white hover:bg-indigo-500 transition-colors duration-700 transform">
                                 Continue
                             </button>
@@ -214,7 +214,7 @@ const PricingComponent = () => {
                                     Dedicated IP
                                 </li>
                             </ul>
-                            <Link href="/contact">
+                            <Link href="/">
                             <button type="button" class="w-full px-3 py-3 text-sm shadow rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-700 transform">
                                 Continue
                             </button>
@@ -297,7 +297,7 @@ const PricingComponent = () => {
                                     Dedicated IP
                                 </li>
                             </ul>
-                            <Link href="/contact">
+                            <Link href="/">
                             <button type="button" class="w-full px-3 py-3 text-sm shadow rounded-lg text-indigo-500 hover:text-white bg-white hover:bg-indigo-500 transition-colors duration-700 transform">
                                 Continue
                             </button>
@@ -314,7 +314,7 @@ const PricingComponent = () => {
                                     Contact us for corporate custom plans. Our experts will be in touch with you to offer customized Dedicated Virtual Private Network with limitless resource as per your need. Bandwidth up to 1 Gbps, unlimited VPN clients and more.
                                 </h6>
                                 <a
-                                    href="/contact"
+                                    href="/"
                                     className="btn bg-gray-700 m-r-20 pt-2 pl-3 pr-3 pb-2 btn-sm m-t-30"
                                     style={{ fontSize: 15 }}
                                 >
@@ -407,7 +407,7 @@ const PricingComponent = () => {
 
                                     </div>
                                     <div class="block flex items-center p-8  uppercase">
-                                        <Link href="/contact">
+                                        <Link href="/">
                                         <button
                                             class="mt-3 text-lg font-semibold 
                                             bg-blue-600 w-full text-white rounded-lg 
@@ -472,7 +472,7 @@ const PricingComponent = () => {
                                 </div>
 
                                 <div class="block flex items-center p-8  uppercase">
-                                <Link href="/contact">
+                                <Link href="/">
                                     <button
                                         class="mt-3 text-lg font-semibold 
 	bg-blue-600 w-full text-white rounded-lg 
@@ -534,7 +534,7 @@ const PricingComponent = () => {
                                     </div>
 
                                     <div class="block flex items-center p-8  uppercase">
-                                    <Link href="/contact">
+                                    <Link href="/">
                                         <button
                                             class="mt-3 text-lg font-semibold 
 	bg-blue-600 w-full text-white rounded-lg 

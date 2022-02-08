@@ -30,7 +30,7 @@ const BannerComponent = () => {
               </Col>
           </Row>
           <a
-              href="/contact"
+              href="https://app.lazarus.network/#/auth"
               className="btn bg-gray-700 m-r-20 btn-md m-t-0"
             >
               Join Us
