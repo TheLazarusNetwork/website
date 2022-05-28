@@ -1,0 +1,27 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: website-ingress
+  namespace: lazarus-network
+  labels:
+    name: website-ingress
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-issuer
+    alb.ingress.kubernetes.io/group.name: lazarous-alb
+spec:
+  tls:
+    - hosts:
+        - test.lazarus.network
+      secretName: test.lazarus.network-tls-secret
+  rules:
+    - host: test.lazarus.network
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: website-service
+                port:
+                  number: 80
