@@ -1,6 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -331,21 +331,21 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (min-width: 768px) {
   #overlay h1 {
     font-size: 64px;
-    line-height: 64px;
+    line-height: 78px;
   }
 }
 
 @media screen and (min-width: 1020px) {
   #overlay h1 {
   font-size: 80px;
-  line-height: 80px;
+  line-height: 96px;
 }
 }
 
 @media screen and (min-width: 1280px) {
   #overlay h1 {
   font-size: 96px;
-  line-height: 96px;
+  line-height: 112px;
 }
 }
 
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 3px solid #1a47ff;
   color: white;
 }
-#getprojects {
+#learnmore {
   width: 220px;
   height: 66px;
   font-size: 18px;
@@ -417,13 +417,6 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # client Section
 --------------------------------------------------------------*/
-/* #client {
-  width: 100%;
-  height: 80vh;
-  background-color: rgba(22, 30, 56, 0.8);
-  overflow: hidden;
-  position: relative;
-} */
 
 #client {
   width: 100%;
@@ -434,9 +427,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
 }
-/* #client .section-header {
-  margin-bottom: 40px;
-} */
 
 #client .carousel, #client .carousel-inner, #client .carousel-item, #client .carousel-item::before {
   content: "";
@@ -726,35 +716,31 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features .icon-box {
-  margin-bottom: 20px;
-  text-align: center;
+.features {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.features .icon {
-  display: flex;
-  justify-content: center;
+.single-card {
+  background-color: #e7f1fb;
+  padding: 20px;
 }
+
+.features .icon-box {
+  
+  margin-bottom: 20px;
+  
+}
+
 
 .features .icon i {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 20px;
-  background: #fff;
-  border-radius: 50%;
-  transition: 0.5s;
   color: #006fbe;
   font-size: 40px;
-  overflow: hidden;
-  padding-top: 20px;
-  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-.features .icon-box:hover .icon i {
-  box-shadow: 0px 0 25px rgba(0, 111, 190, 0.3);
-}
 
 .features .title {
+  /* font-family: 'Urbanist', sans-serif; */
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 18px;
@@ -764,25 +750,10 @@ section {
 
 .features .title a {
   color: #444444;
-  transition: 0.3s;
-}
-
-.features .title a:hover {
-  color: #006fbe;
-}
-
-.features .title::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 2px;
-  background: #006fbe;
-  bottom: 0;
-  left: calc(50% - 25px);
 }
 
 .features .description {
+  font-family: 'Inter', sans-serif;
   line-height: 24px;
   font-size: 14px;
 }
