@@ -383,6 +383,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #1a47ff;
   border: 3px solid #1a47ff;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #learnmore {
   width: 220px;
@@ -393,6 +396,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: hsla(0,0%,100%,.1);
   border: 3px solid hsla(0,0%,100%,.1);
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* End Of Overlay Section */
@@ -621,12 +627,19 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: bold;
+  color: #040f1f;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 64px;
+  }
 }
 
 .section-title h2::before {
@@ -639,20 +652,16 @@ section {
   bottom: 1px;
   left: calc(50% - 60px);
 }
-
-.section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #006fbe;
-  bottom: 0;
-  left: calc(50% - 20px);
-}
-
 .section-title p {
   margin-bottom: 0;
+  color: #455A74;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title p {
+    font-size: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -716,9 +725,14 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features {
-  padding-left: 20px;
-  padding-right: 20px;
+.features * {
+  transition: all 0.4s ease-in-out;
+}
+@media screen and (min-width: 1024px) {
+  .features {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 }
 
 .single-card {
@@ -727,35 +741,54 @@ section {
 }
 
 .features .icon-box {
-  
+  text-align: center;
   margin-bottom: 20px;
   
 }
 
-
+.features .icon {
+  margin-bottom: 15px;
+}
 .features .icon i {
-  color: #006fbe;
-  font-size: 40px;
+  color: #1673ff;
+  font-size: 48px;
+}
+@media screen and (min-width:768px) {
+  .features .icon i {
+    font-size: 72px;
+  }
 }
 
 
 .features .title {
-  /* font-family: 'Urbanist', sans-serif; */
   font-weight: 600;
   margin-bottom: 15px;
-  font-size: 18px;
-  position: relative;
-  padding-bottom: 15px;
+  font-size: 
+  18px;
+}
+
+@media screen and (min-width:768px) {
+  .features .title {
+    font-size: 20px;
+  }
 }
 
 .features .title a {
-  color: #444444;
+  font-weight: 700;
+  color: #040f1f;
 }
 
 .features .description {
   font-family: 'Inter', sans-serif;
   line-height: 24px;
   font-size: 14px;
+  color:#455A74;
+}
+
+@media screen and (min-width:768px) {
+  .features .description {
+    font-size: 16px;
+  }
 }
 
 .features .row p:last-child {
@@ -784,6 +817,18 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/* Products Section */
+@media screen and (min-width:1280px) {
+  .products {
+      display: flex;
+      column-gap: 24px;
+}
+  .single-card {
+    width: 33.33%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Recent Photos
