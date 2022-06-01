@@ -12,10 +12,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - test.lazarus.network
-      secretName: test.lazarus.network-tls-secret
+        - lazarus.network
+      secretName: lazarus.network-tls-secret
   rules:
-    - host: test.lazarus.network
+    - host: lazarus.network
       http:
         paths:
           - pathType: Prefix
