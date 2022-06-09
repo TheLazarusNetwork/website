@@ -428,9 +428,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 50vh;
   padding: 80px 0;
-  background: url("../img/home.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
   position: relative;
 }
 
@@ -613,8 +610,11 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
+.section {
+  padding: 90px 20px 60px 20px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-bg {
@@ -826,6 +826,7 @@ section {
 }
   .single-card {
     width: 33.33%;
+    border-radius: 24px;
   }
 }
 
@@ -1663,9 +1664,7 @@ section {
 --------------------------------------------------------------*/
 .clients {
   padding: 80px 0;
-  background: url("../img/home.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-color: #fff;
   position: relative;
 }
 .clients::before {
@@ -1675,7 +1674,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
 }
 .clients .section-header {
   margin-bottom: 40px;
@@ -1685,7 +1684,11 @@ section {
 }
 .clients .client-item, .clients .section-title {
   text-align: center;
-  color: #fff;
+  color: #040f1f;
+}
+.client-item {
+  background-color: #f7f9fc;
+  padding: 20px;
 }
 .clients .client-item .client-img {
   width: 100px;
@@ -1708,21 +1711,26 @@ section {
   color: rgba(255, 255, 255, 0.6);
   font-size: 26px;
 }
-.clients .client-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-.clients .client-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
 .clients .client-item p {
-  font-style: italic;
   margin: 0 auto 15px auto;
-  color: white;
+  color: #23262d;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.clients .client-item .client-logo {
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .clients .client-item p {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width:992px) {
+  .clients .client-item p {
+    font-size: 32px;
+  }
 }
 .clients .swiper-pagination {
   margin-top: 20px;
@@ -1749,3 +1757,17 @@ section {
   }
 }
 
+
+/* Vision and Mission */
+.mission {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+.mission p {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.mission h2{
+  color: black;
+}
