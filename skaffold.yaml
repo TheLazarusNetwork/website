@@ -4,7 +4,7 @@ metadata:
   name: lazaruswebsite
 build:
   artifacts:
-  - image: lazarusnetwork/website
+  - image: 560914023379.dkr.ecr.us-east-2.amazonaws.com/lazarus-website
     docker:
       dockerfile: Dockerfile
 deploy:
