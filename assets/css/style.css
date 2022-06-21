@@ -1702,8 +1702,8 @@ h1, h2, h3, h4, h5, h6 {
   /* background: url("../img/home.jpg") no-repeat; */
 }
 .clients .client-item .client-img1 {
-  width: 150px;
-  border-radius: 50px;
+  width: 75px;
+  border-radius: 25px;
   border: 2px solid rgba(14, 12, 12, 0.15);
   margin: 0 auto;
 }
