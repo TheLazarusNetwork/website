@@ -7,12 +7,13 @@
 .resp {
     display: flex;
     flex-direction: row;
+   
 }
 
 .img {
 
     height: 310px;
-    width: 80%;
+    width: 87%;
 }
 
 .img1 {
@@ -22,33 +23,70 @@
 }
 
 .head {
-   width: 80%;
     text-align: center;
+    width: 90%;
+
 }
 
 .headd {
 
-    width: 80%;
+    width: 85%;
     text-align: center;
     font-weight: 700;
+    margin-left: 0px;
+  
 }   
+
+.discord {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.discord h2 {
+    font-weight: 700;
+}
+.disc{
+    width: 40%;
+    cursor: pointer;
+}
 
 .head1 {
     width: 90%;
      text-align: center;
+    
+ }
+
+ .he {
+    width: 90%;
+     text-align: center;
+   
  }
  
 
- @media screen and (max-width: 780px) {
+ @media screen and (max-width: 995px) {
     .headd {
         font-size: 32px;
+        width: 100%;
+    
      
     }
     .resp {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
+
+    .head1 {
+        font-size: 30px;
+    }
+
+
     .img {
         width: 89%;
     }
+
+    .discord {
+        margin-top: 40px;
+    }
  }
+
